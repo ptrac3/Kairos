@@ -1,0 +1,9 @@
+cryptolocker
+koobface
+reveton
+zeus
+w32_downadup
+w32_sillyfdc
+w32_ramnit
+w32_xpaj
+ghostrat

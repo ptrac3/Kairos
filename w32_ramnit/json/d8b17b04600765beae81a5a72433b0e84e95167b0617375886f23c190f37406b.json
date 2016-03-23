@@ -1,0 +1,2309 @@
+{
+    "info": {
+        "category": "file", 
+        "package": "", 
+        "started": "2014-08-03 13:27:13", 
+        "custom": "", 
+        "machine": {
+            "shutdown_on": "2014-08-03 13:29:28", 
+            "label": "win7_2", 
+            "manager": "VirtualBox", 
+            "started_on": "2014-08-03 13:27:13", 
+            "id": 472, 
+            "name": "win7_2"
+        }, 
+        "ended": "2014-08-03 13:29:29", 
+        "version": "1.2-dev", 
+        "duration": 136, 
+        "id": 472
+    }, 
+    "signatures": [], 
+    "static": {
+        "pe_imports": [
+            {
+                "imports": [
+                    {
+                        "name": "GlobalLock", 
+                        "address": "0x401000"
+                    }, 
+                    {
+                        "name": "TlsSetValue", 
+                        "address": "0x401004"
+                    }, 
+                    {
+                        "name": "WideCharToMultiByte", 
+                        "address": "0x401008"
+                    }, 
+                    {
+                        "name": "GetFileSize", 
+                        "address": "0x40100c"
+                    }, 
+                    {
+                        "name": "SetThreadLocale", 
+                        "address": "0x401010"
+                    }, 
+                    {
+                        "name": "GetOEMCP", 
+                        "address": "0x401014"
+                    }, 
+                    {
+                        "name": "GetFileType", 
+                        "address": "0x401018"
+                    }, 
+                    {
+                        "name": "OpenFileMappingA", 
+                        "address": "0x40101c"
+                    }, 
+                    {
+                        "name": "TlsGetValue", 
+                        "address": "0x401020"
+                    }, 
+                    {
+                        "name": "VirtualFree", 
+                        "address": "0x401024"
+                    }, 
+                    {
+                        "name": "RegisterWowExec", 
+                        "address": "0x401028"
+                    }, 
+                    {
+                        "name": "ExitThread", 
+                        "address": "0x40102c"
+                    }, 
+                    {
+                        "name": "WriteFile", 
+                        "address": "0x401030"
+                    }, 
+                    {
+                        "name": "ExitProcess", 
+                        "address": "0x401034"
+                    }, 
+                    {
+                        "name": "SetFilePointer", 
+                        "address": "0x401038"
+                    }, 
+                    {
+                        "name": "CloseHandle", 
+                        "address": "0x40103c"
+                    }, 
+                    {
+                        "name": "LocalUnlock", 
+                        "address": "0x401040"
+                    }, 
+                    {
+                        "name": "GetStdHandle", 
+                        "address": "0x401044"
+                    }, 
+                    {
+                        "name": "CreateFileA", 
+                        "address": "0x401048"
+                    }, 
+                    {
+                        "name": "SetEndOfFile", 
+                        "address": "0x40104c"
+                    }, 
+                    {
+                        "name": "GetSystemTime", 
+                        "address": "0x401050"
+                    }
+                ], 
+                "dll": "kernel32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "RegQueryValueExA", 
+                        "address": "0x401058"
+                    }, 
+                    {
+                        "name": "RegOpenKeyExA", 
+                        "address": "0x40105c"
+                    }, 
+                    {
+                        "name": "RegCloseKey", 
+                        "address": "0x401060"
+                    }, 
+                    {
+                        "name": "OpenProcessToken", 
+                        "address": "0x401064"
+                    }, 
+                    {
+                        "name": "LookupPrivilegeValueA", 
+                        "address": "0x401068"
+                    }
+                ], 
+                "dll": "advapi32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "GetFileVersionInfoSizeA", 
+                        "address": "0x401070"
+                    }, 
+                    {
+                        "name": "GetFileVersionInfoA", 
+                        "address": "0x401074"
+                    }, 
+                    {
+                        "name": "VerQueryValueA", 
+                        "address": "0x401078"
+                    }
+                ], 
+                "dll": "version.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "GetFullPathNameA", 
+                        "address": "0x401080"
+                    }, 
+                    {
+                        "name": "lstrcatA", 
+                        "address": "0x401084"
+                    }, 
+                    {
+                        "name": "GetModuleFileNameA", 
+                        "address": "0x401088"
+                    }, 
+                    {
+                        "name": "GetModuleHandleA", 
+                        "address": "0x40108c"
+                    }, 
+                    {
+                        "name": "lstrcpyA", 
+                        "address": "0x401090"
+                    }, 
+                    {
+                        "name": "SetFileAttributesA", 
+                        "address": "0x401094"
+                    }, 
+                    {
+                        "name": "GetShortPathNameA", 
+                        "address": "0x401098"
+                    }, 
+                    {
+                        "name": "SearchPathA", 
+                        "address": "0x40109c"
+                    }, 
+                    {
+                        "name": "GetFileSize", 
+                        "address": "0x4010a0"
+                    }, 
+                    {
+                        "name": "lstrlenA", 
+                        "address": "0x4010a4"
+                    }, 
+                    {
+                        "name": "MoveFileA", 
+                        "address": "0x4010a8"
+                    }, 
+                    {
+                        "name": "CopyFileA", 
+                        "address": "0x4010ac"
+                    }, 
+                    {
+                        "name": "lstrcpynA", 
+                        "address": "0x4010b0"
+                    }, 
+                    {
+                        "name": "RemoveDirectoryA", 
+                        "address": "0x4010b4"
+                    }
+                ], 
+                "dll": "kernel32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "CreateWindowExA", 
+                        "address": "0x4010bc"
+                    }, 
+                    {
+                        "name": "ShowWindow", 
+                        "address": "0x4010c0"
+                    }, 
+                    {
+                        "name": "GetDlgItemTextA", 
+                        "address": "0x4010c4"
+                    }, 
+                    {
+                        "name": "SetWindowTextA", 
+                        "address": "0x4010c8"
+                    }, 
+                    {
+                        "name": "SendDlgItemMessageA", 
+                        "address": "0x4010cc"
+                    }
+                ], 
+                "dll": "user32.dll"
+            }
+        ], 
+        "peid_signatures": null, 
+        "pe_timestamp": "2010-06-11 09:34:11", 
+        "pe_exports": [], 
+        "imported_dll_count": 5, 
+        "pe_imphash": null, 
+        "pe_resources": [], 
+        "pe_versioninfo": [], 
+        "pe_sections": [
+            {
+                "size_of_data": "0x00002200", 
+                "virtual_address": "0x00001000", 
+                "entropy": 3.513075738886004, 
+                "name": ".text", 
+                "virtual_size": "0x0000214d"
+            }, 
+            {
+                "size_of_data": "0x00001200", 
+                "virtual_address": "0x00004000", 
+                "entropy": 2.8267974076545097, 
+                "name": ".data", 
+                "virtual_size": "0x00008f08"
+            }, 
+            {
+                "size_of_data": "0x00000800", 
+                "virtual_address": "0x0000d000", 
+                "entropy": 0.0, 
+                "name": ".rsrc", 
+                "virtual_size": "0x0000079c"
+            }, 
+            {
+                "size_of_data": "0x0001a600", 
+                "virtual_address": "0x0000e000", 
+                "entropy": 4.578691348366512, 
+                "name": ".debug", 
+                "virtual_size": "0x0001af7c"
+            }
+        ]
+    }, 
+    "dropped": [], 
+    "behavior": {
+        "processtree": [
+            {
+                "parent_id": 3552, 
+                "pid": 3700, 
+                "children": [], 
+                "name": "d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b"
+            }
+        ], 
+        "processes": [
+            {
+                "parent_id": 3552, 
+                "process_name": "d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b", 
+                "process_id": 3700, 
+                "first_seen": "2014-08-03 13:27:28,682", 
+                "calls": [
+                    {
+                        "category": "filesystem", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:27:28,722", 
+                        "thread_id": "3704", 
+                        "repeated": 0, 
+                        "api": "NtOpenDirectoryObject", 
+                        "arguments": [
+                            {
+                                "name": "DirectoryHandle", 
+                                "value": "0x00000070"
+                            }, 
+                            {
+                                "name": "DesiredAccess", 
+                                "value": "15"
+                            }, 
+                            {
+                                "name": "ObjectAttributes", 
+                                "value": "C:\\Sessions\\1\\BaseNamedObjects"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:27:28,722", 
+                        "thread_id": "3704", 
+                        "repeated": 0, 
+                        "api": "NtCreateSection", 
+                        "arguments": [
+                            {
+                                "name": "ObjectAttributes", 
+                                "value": ""
+                            }, 
+                            {
+                                "name": "DesiredAccess", 
+                                "value": "0x000f0007"
+                            }, 
+                            {
+                                "name": "SectionHandle", 
+                                "value": "0x00000078"
+                            }, 
+                            {
+                                "name": "FileHandle", 
+                                "value": "0x00000000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:27:28,722", 
+                        "thread_id": "3704", 
+                        "repeated": 0, 
+                        "api": "ZwMapViewOfSection", 
+                        "arguments": [
+                            {
+                                "name": "SectionOffset", 
+                                "value": "0x0082f9e4"
+                            }, 
+                            {
+                                "name": "SectionHandle", 
+                                "value": "0x00000078"
+                            }, 
+                            {
+                                "name": "ProcessHandle", 
+                                "value": "0xffffffff"
+                            }, 
+                            {
+                                "name": "BaseAddress", 
+                                "value": "0x000e0000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:27:31,025", 
+                        "thread_id": "3704", 
+                        "repeated": 0, 
+                        "api": "NtFreeVirtualMemory", 
+                        "arguments": [
+                            {
+                                "name": "FreeType", 
+                                "value": "0x00008000"
+                            }, 
+                            {
+                                "name": "ProcessHandle", 
+                                "value": "0xffffffff"
+                            }, 
+                            {
+                                "name": "RegionSize", 
+                                "value": "0x00001000"
+                            }, 
+                            {
+                                "name": "BaseAddress", 
+                                "value": "0x003d0000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "anomaly": [], 
+        "enhanced": [], 
+        "summary": {
+            "files": [], 
+            "keys": [], 
+            "mutexes": []
+        }
+    }, 
+    "target": {
+        "category": "file", 
+        "file": {
+            "yara": [], 
+            "sha1": "0a25b27e5a661f06981f848fa03013979db97828", 
+            "name": "d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b", 
+            "type": "PE32 executable (GUI) Intel 80386, for MS Windows", 
+            "sha256": "d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b", 
+            "crc32": "D1A16B94", 
+            "path": "/home/ptrac3/cuckoo-master/storage/binaries/d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b", 
+            "ssdeep": "1536:3xf0u7YnqMGGGMZZZyVb1t9e4GNqBvrPzO7YiMIATcjinODDsP6nCM0vd+m7:3xf026qbJ1y4GNq5jz2YiMacOUyCtlR", 
+            "size": 247296, 
+            "sha512": "e835233ecb9545c8ce5043157bbd963136becac1751e622ea199377649c458fbae09f66fcbbe97db9f68b8ade9f6f99261c78c5fde73dd1af83c353b06d6227a", 
+            "md5": "be876bed97a8ad07a33c6c8756815192"
+        }
+    }, 
+    "debug": {
+        "errors": [], 
+        "log": "2014-03-08 08:50:59,009 [root] INFO: Starting analyzer from: C:\\ukeiibuwyb\n2014-03-08 08:50:59,020 [root] INFO: Storing results at: C:\\KvrHSCmJis\n2014-03-08 08:50:59,020 [root] INFO: Pipe server name: \\\\.\\PIPE\\QUMAcuAPe\n2014-03-08 08:50:59,020 [root] INFO: No analysis package specified, trying to detect it automagically.\n2014-03-08 08:50:59,020 [root] INFO: Automatically selected analysis package \"exe\"\n2014-03-08 08:50:59,338 [root] INFO: Started auxiliary module Disguise\n2014-03-08 08:50:59,338 [root] INFO: Started auxiliary module Human\n2014-03-08 08:50:59,338 [root] INFO: Started auxiliary module Screenshots\n2014-03-08 08:50:59,348 [lib.api.process] INFO: Successfully executed process from path \"C:\\Users\\cuckoo\\AppData\\Local\\Temp\\d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b\" with arguments \"\" with pid 3700\n2014-03-08 08:50:59,348 [lib.api.process] INFO: Using QueueUserAPC injection.\n2014-03-08 08:50:59,348 [lib.api.process] INFO: Successfully injected process with pid 3700.\n2014-08-03 13:27:26,819 [lib.api.process] INFO: Successfully resumed process with pid 3700\n2014-08-03 13:27:26,819 [root] INFO: Added new process to list with pid: 3700\n2014-08-03 13:29:26,250 [root] INFO: Analysis timeout hit, terminating analysis.\n2014-08-03 13:29:26,280 [root] INFO: Terminating remaining processes before shutdown.\n2014-08-03 13:29:26,280 [lib.api.process] INFO: Successfully terminated process with pid 3700.\n2014-08-03 13:29:26,280 [root] INFO: Analysis completed.\n"
+    }, 
+    "strings": [
+        "!This program cannot be run in DOS mode.", 
+        "`.data", 
+        "@.debug", 
+        "C?4A?<AG", 
+        "M8MI>G", 
+        "MB6I0421", 
+        ";BO;I1", 
+        "@H9>?OB6CJM64", 
+        "H>K8CJ?", 
+        "93;BCH>;0<G", 
+        "<MG>08K", 
+        ";DL75:", 
+        "TfE5.u", 
+        "@I7J;JE", 
+        "<56AN=", 
+        "OEN7A:;", 
+        "GlobalLock", 
+        "TlsSetValue", 
+        "WideCharToMultiByte", 
+        "GetFileSize", 
+        "SetThreadLocale", 
+        "GetOEMCP", 
+        "GetFileType", 
+        "OpenFileMappingA", 
+        "TlsGetValue", 
+        "VirtualFree", 
+        "RegisterWowExec", 
+        "ExitThread", 
+        "WriteFile", 
+        "ExitProcess", 
+        "SetFilePointer", 
+        "CloseHandle", 
+        "LocalUnlock", 
+        "GetStdHandle", 
+        "CreateFileA", 
+        "SetEndOfFile", 
+        "GetSystemTime", 
+        "kernel32.dll", 
+        "RegQueryValueExA", 
+        "RegOpenKeyExA", 
+        "RegCloseKey", 
+        "OpenProcessToken", 
+        "LookupPrivilegeValueA", 
+        "advapi32.dll", 
+        "GetFileVersionInfoSizeA", 
+        "GetFileVersionInfoA", 
+        "VerQueryValueA", 
+        "version.dll", 
+        "GetFullPathNameA", 
+        "lstrcatA", 
+        "GetModuleFileNameA", 
+        "GetModuleHandleA", 
+        "lstrcpyA", 
+        "SetFileAttributesA", 
+        "GetShortPathNameA", 
+        "SearchPathA", 
+        "GetFileSize", 
+        "lstrlenA", 
+        "MoveFileA", 
+        "CopyFileA", 
+        "lstrcpynA", 
+        "RemoveDirectoryA", 
+        "kernel32.dll", 
+        "CreateWindowExA", 
+        "ShowWindow", 
+        "GetDlgItemTextA", 
+        "SetWindowTextA", 
+        "SendDlgItemMessageA", 
+        "user32.dll", 
+        "EL10NB415G", 
+        "081L9:", 
+        "72583>", 
+        "OJDJ:A3?CD", 
+        "M::LBMM", 
+        "D=5:F=7EE4", 
+        "3?9A9>1=", 
+        "HK;EL18G2C>", 
+        "EG12O@", 
+        "G073D5", 
+        "44LJ5I6<>", 
+        ">5D3A6", 
+        "29G10LK87O81NOH<:4I8@?", 
+        "7C=BB4", 
+        "0GJO@85AF=6", 
+        "I613G52M", 
+        "404CG46L105I60", 
+        "K:>MO<I@@;", 
+        "J50MMN92", 
+        "J8FBL9CK68", 
+        "7CMEL8", 
+        "CGFI?6=", 
+        "F1IKI<18", 
+        ":F5=ME2", 
+        "56I2<DN>", 
+        "O9M7GD", 
+        "9AEGE:N1", 
+        "9=:DKLCA?;", 
+        "INAB>E=CL6C", 
+        "7>18DE", 
+        "?;D754", 
+        "019F5M", 
+        "?JON0E4H", 
+        "EHL9>C", 
+        "DC>3N06", 
+        ">:HK57:B", 
+        "O4GJHL", 
+        "7ND7I4C", 
+        "49M?6L=0", 
+        "H0;433:", 
+        "09O?B:", 
+        "FG93>B", 
+        "D6H;MGDO2?O?G", 
+        "5:MBL42", 
+        ">>6;;=K", 
+        "@6JDGF", 
+        "L4NE?=", 
+        "2O=FD23=", 
+        "5A=5MJ3", 
+        "?E?07G", 
+        "4DLAJ44>L", 
+        ";7CFD;IE>A", 
+        "5J:5K@@D", 
+        ">3MFND", 
+        "N=5H6K", 
+        "?E9EM6", 
+        ":5M?;CF", 
+        "916GJO@B@=4K", 
+        "7>5F5=E", 
+        ">J0J36F", 
+        "ECD<C?@=", 
+        "=4K;<ND", 
+        "GDK8=96E2N267D", 
+        "N0FA@;", 
+        "?<;GFCA", 
+        "CFL740LKCH?M9=L", 
+        "OLH@?I", 
+        "10ACMHMD", 
+        "=>@485H3C", 
+        "5@JIO>8", 
+        "C1<GF0B", 
+        "H?B42KN", 
+        "C>>NF9", 
+        "EIK3MA", 
+        "2KDML?DF@", 
+        "A67<14:8", 
+        "B29KE=", 
+        "870?D7", 
+        "6N6AK=5GHB<?", 
+        "LJL22B", 
+        ";<;@AGK", 
+        "490DN2CFA", 
+        "N?:8J0;EH3<L", 
+        "@EF=;0", 
+        "D9ID>H", 
+        "2FL@A077", 
+        "JD::6>K", 
+        "MAD88:@", 
+        "=4A2LIM@?<K", 
+        ";?3A<<", 
+        "JH1IABF", 
+        ";;;=?:152595", 
+        "<:L:2EI", 
+        "01:M43", 
+        "@H;3CAN", 
+        "3M1E;16", 
+        "N5O8ANE9", 
+        "=H58J:HL", 
+        "9N502N@", 
+        ";@@FK>G0BI", 
+        "G6;::1JE00", 
+        "C39:FJ=O", 
+        "4=??7JN", 
+        ":N?:L0BD", 
+        "??:173CC", 
+        "==OO0MD2", 
+        "@>EL@;;LAC", 
+        "@C>7:O", 
+        "NL;5>D", 
+        "L6;OGB", 
+        "LJ2J88?EG9N;", 
+        "HAJNHGI", 
+        "9J2OH9H9;M", 
+        "6C1B7:J", 
+        "I??MJ2A2=H@", 
+        "1N8F9222E", 
+        "<H9DL<00", 
+        "FOKE=9", 
+        "GCCIIIKNC", 
+        "CM3LMJ9OB7O", 
+        "4LL<GH0GL", 
+        "@H<@50", 
+        "L<I>DJLKE", 
+        "EMGBJJ4OB1", 
+        "M@IG>52OM3OH", 
+        "321O@HJ0OGEBE@", 
+        ">FH65KH", 
+        "K4LD5H", 
+        ";MK>H@", 
+        ">9GMO9;C22B9", 
+        "J7<75@M", 
+        "N;@JAH:", 
+        "C6N7GBA", 
+        "4HH?37", 
+        "5K77?1", 
+        "O=@AEM", 
+        "94>E<OCA", 
+        "<4J97D<11", 
+        "=M3I2I6", 
+        "OM7M:09", 
+        "E?:8B1", 
+        "@;7@KDN79", 
+        "4IA=J=8", 
+        "?EOMCI=L", 
+        ">H9M=JJ5<7A:;6EF98=M", 
+        "@E1;N1", 
+        "DH54:<N?9@3@", 
+        "1318<G", 
+        "K2@24DD=5J:D", 
+        "MBKEJN9D@", 
+        ";5@8@LEDN", 
+        "LA>G=;=1", 
+        "3J7L7G2;", 
+        "N@<IODA<@K91>", 
+        "K?10@E9", 
+        "1N@M1F5", 
+        "2@DMK9C81?H", 
+        "G>14L29B686", 
+        "K50EK6<HH", 
+        "H:37IH", 
+        "7?F<K>:D", 
+        "2FH5DL:OKFL", 
+        "5OAFH2@IE0?", 
+        "7J3J<5F", 
+        "3>4=:H", 
+        "=AJ7I1A:9=", 
+        "9B9FND;A4", 
+        "6363?L19", 
+        "1B4HM>6K8", 
+        "E19C@?K", 
+        "JAM=8F", 
+        "M2BK;0N", 
+        "II2H2J6C", 
+        "74FFNB", 
+        "3OLED9", 
+        "I4>BND38", 
+        "I34O9>A3A3N", 
+        "IGH6G69:", 
+        "B0?81BE", 
+        "FH1A=47", 
+        "?JJK68", 
+        "O>MKCI7OL>", 
+        "@1FI;C", 
+        "FJ=>OLH", 
+        "F<AJBD", 
+        "9>E<?4E", 
+        "1<;4J<1LHK::5615;", 
+        "JG9I5=0", 
+        "F1OHHC", 
+        "GHA03C", 
+        "FNN4ND6D", 
+        "5CA6D=N<O", 
+        "44210202413210", 
+        "03013302", 
+        "400322130", 
+        "0010124", 
+        "441430302", 
+        "32041330004424121110", 
+        "034244", 
+        "343010413314133", 
+        "11314031", 
+        "1042043", 
+        "0030200030102", 
+        "4401332", 
+        "22324232", 
+        "430044", 
+        "0131323", 
+        "13331304", 
+        "203410", 
+        "202130", 
+        "41444234214230", 
+        "1043242", 
+        "2032240331402122", 
+        "1041121", 
+        "12001220", 
+        "3211131", 
+        "343411", 
+        "24203241312313032420011301124030", 
+        "4123342", 
+        "2220441202431343", 
+        "1323002232", 
+        "4401430", 
+        "41311323413", 
+        "332202d", 
+        "mJpwwwv+Kk)", 
+        "EkKu+Kt", 
+        "E+Kvu+Ku", 
+        "|qpp<kK", 
+        ")gtkKt", 
+        "+Kovwww", 
+        "StGSa7", 
+        "+q[t*s", 
+        "wt+qc'", 
+        "*op'[4p\"", 
+        "R{Y7wN", 
+        "gwwwVA]wwA#f19wwCQ", 
+        "40444014334", 
+        "240224", 
+        "204014200", 
+        "140131", 
+        "4404423014", 
+        "04031103003", 
+        "130410", 
+        "DDD@DDD@DDD@", 
+        "DDD@DDD@", 
+        "PADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADD", 
+        "=<E?KO", 
+        "544G;C", 
+        "PH]:prA+c_[ cMp4WU", 
+        "LA~e.#A", 
+        ",~[8!.", 
+        ".n8t~B!", 
+        "!m_9zI", 
+        "ha.##&", 
+        "Q:>&oL)", 
+        "9^X1hy5", 
+        "qCv_xYI*", 
+        "\u001fUkA;^", 
+        "v+G'2Kx=", 
+        "Z1P7sF", 
+        "Ejb{  R'^", 
+        "pdRM\u001fs", 
+        ";0G}3vy", 
+        "C4a7iv'", 
+        "~hog\\-|x_le_;Z", 
+        "bAwmo@r", 
+        "A~HOa[", 
+        "<i>M%0", 
+        "4=Dl>eeDI|", 
+        "ogXG:EYS", 
+        "xpW4LW", 
+        "Ex\\r5J*rse", 
+        "lvoHE\\c%r", 
+        "#fMjCu^:gn", 
+        "N;LI6SEX~", 
+        "ntpr?y[Zl\\CntdB", 
+        "hNA}Z|E04", 
+        "@:zdr`q;\\e ]", 
+        "v?L3~6", 
+        "G8D=_de", 
+        "6XEQwn", 
+        "aO-3JU[{lMK", 
+        "K<d2f1*", 
+        "[t-Gi p", 
+        "CK:ru@lx<", 
+        ".Z)iJb", 
+        "s+7NAU", 
+        "nSIg>9^Y", 
+        "?y8b?R", 
+        "{i{p<j?", 
+        "brl4/;+", 
+        "h\u001f.C$t", 
+        "&*u_m/nn", 
+        ".la,_v", 
+        "w<K/)?f", 
+        "#HzcKi!", 
+        "+LLI;8", 
+        ";.TY\"$rtkI", 
+        "6Go`V3;@6", 
+        "O24U(Y{b__", 
+        "lf4{f%", 
+        "K3jThO", 
+        "&D}THp", 
+        "E.9Pd}", 
+        "\"oAVk{", 
+        "%u5X=Q", 
+        "{n6?,X", 
+        "!jeWii7", 
+        "gCj6?q>", 
+        "0Z+*Rr", 
+        "0v7Vym\"", 
+        "XRh xY", 
+        ")'\u001f$W(", 
+        "`&S[cRpb", 
+        "\\ 6t7F", 
+        "2-^3Y|n", 
+        "cZy&s&,w", 
+        "-*K\"LhDu", 
+        "s3K!GJ", 
+        "h/P;[]OW$Cl", 
+        "Rsy+V~ux", 
+        "6L#560dH;U5", 
+        "Sx*)qO #+", 
+        "j }8y ", 
+        "B=]d'^", 
+        "Xj*;{;", 
+        "JA18<}", 
+        "\"{\"'1>*~", 
+        "lzN]f>)vP", 
+        "N(hToa", 
+        "2c\u001fIvuu", 
+        ":6Bt,v5h4X", 
+        "4ajaRgt", 
+        "Z/1q:mg\\", 
+        "u_bsbrO>h9", 
+        "MA(dRS", 
+        "(2EPl3", 
+        "DGUrJY", 
+        "\u001fm9$eb", 
+        "'u\"Q4?K", 
+        "[T`k'm", 
+        "@%;JqR", 
+        "l%]WU[", 
+        "]`!uMU", 
+        "3xJ_ca@M", 
+        "5JLHXd", 
+        "d=,LC!", 
+        "e^Lb<b", 
+        "z!U4WHI", 
+        "mwC3Bk*5;Ze[", 
+        "yx5-{0cr", 
+        "b,pMH[", 
+        ":.kV):&", 
+        "Didchl e[7", 
+        "g%5pV-", 
+        ")?.8VO", 
+        "LOt|7B", 
+        "ZizyQk5P", 
+        "i_n[~'", 
+        "4 GaJ.", 
+        "v>VF1j", 
+        "zmc|ewaj1E", 
+        "8exj(>X1", 
+        "z?9t\u001f=F", 
+        "SSC1#.4a", 
+        "%mrk[UTa", 
+        "rkRgzE", 
+        "X3sL_o", 
+        "y38S~v#hT", 
+        "qOSB;o4M4{5\u001fxo", 
+        "|2-`-!", 
+        "O'k]GL\"b}", 
+        "\\[RiaA", 
+        "oAh^os%", 
+        "LA_+I4W5N", 
+        "(%H7tTO", 
+        "cJQ,tJ>l", 
+        ".Y4Ax2", 
+        "m6kIflF", 
+        "z-^7M{", 
+        "Xdt\u001f|$X>pru", 
+        "tdH\u001fX$", 
+        "yi-*_1", 
+        "HP:0\\\u001f", 
+        "@b['tfb", 
+        "$k0JLjb]", 
+        "W:XV|J", 
+        ";7}u!T", 
+        "aV/zDRufw", 
+        "&uL92)", 
+        "UWX)7%'7", 
+        "{a|_?_", 
+        "*)RJNQ", 
+        "P?[8!&", 
+        "Hl-:\u001fN", 
+        "CX* #Z", 
+        "MotXxm~T/", 
+        "~VP*GP9", 
+        "c.xbe(", 
+        "B|Y@_gm", 
+        "EQQhui", 
+        "&nq';Bg", 
+        "iYY1;2", 
+        "d3~nPX3@dHz>", 
+        "*sdJ(=", 
+        "Hz>\\1\"", 
+        "({_/E;:", 
+        "j32}\"CM^2", 
+        "hBoC)os", 
+        "`j7z'CV", 
+        "H+k1^}k", 
+        ":.:4|xy", 
+        "^\"v8Rt", 
+        "<@9*/8", 
+        "v 9\\q`", 
+        "MRxG`+-7[", 
+        "d\u001fZ8!.", 
+        ":tLEioB#x", 
+        "8 e@/~Z_ng", 
+        "\"\" ]8pPRalCp?", 
+        "r-_EseA|6A", 
+        "Vwln]q3KDn:_}2]LOi-mG/cQEofX39WL", 
+        "maBw<]RZLer]%~P", 
+        "XY xAr4K", 
+        "?rVSma_37QB\\usoH8<]Ym:Mm7", 
+        "8><])rKDitU fJD_oesZ)unDivEr?_D]$<rK=d[EteH[\"]B[nio@", 
+        "tHSl @{,]M", 
+        "8asg\"gQ]er", 
+        ">/Q`Myes]q3XWlsI<u", 
+        "heq[)bJSdP^w,QMK}es", 
+        "p>MScu^w.A\u001f", 
+        "5tr[?ewXfo", 
+        "mbB5/>6", 
+        "t!O~va^%\"", 
+        "/KD\\)2.J }>6LoMz", 
+        "QC\\{ryoL", 
+        "yStP^q9yEJhes]L", 
+        "6hSAnecZL", 
+        "6yMBuc", 
+        "xLBua@X(]D.", 
+        "EV%enDocIm)8!.Hega<tP}eym", 
+        "Z8V]jri@8w", 
+        "wrvDH!", 
+        "073FL>K;M<BIB?9", 
+        "JG2C3>GH", 
+        "6FAAGFJ", 
+        "0NIEIB", 
+        "L=<@<K", 
+        "LA5JLLG", 
+        "?LA6?BOH", 
+        "?A::2:", 
+        "A6?1;1", 
+        "2OB73:", 
+        "LM><:<;JM>5", 
+        "65I;<HG?9", 
+        ">L<M9MJ;=74", 
+        "2:5?D3", 
+        "@O8DA8E0", 
+        "@9<HAJ2", 
+        "552NC=", 
+        "=K<OC<=L", 
+        "F>78@6", 
+        "6;L33;", 
+        "@>L035", 
+        "FJ0MMJF", 
+        "H78DG6N", 
+        "0GN59B", 
+        "2AKII2@", 
+        "0D422=", 
+        "9DNJGG", 
+        "3G862>", 
+        "JJ47D@I6>;0H8", 
+        "7GC>D:DC9", 
+        ">>4E?0", 
+        "M29F=FK3D", 
+        ":FA5>EG2", 
+        "LEGA>O<0", 
+        "<IKD2GCM", 
+        "?83;@N", 
+        "D@2>E;GA:<", 
+        "G8F;@:<", 
+        "OFE>6F", 
+        "9C63<K", 
+        "AD;B7C", 
+        "ADD=9>", 
+        "K657E3", 
+        ":DG7NG68C", 
+        "<?@:MH", 
+        "1I35K6", 
+        "HI8032N<20", 
+        "tqJ{ZQ", 
+        "dfqWR1", 
+        "Qy`{uM", 
+        "\u001feE\"dNu", 
+        "E\u001f8~\u001f\u001f", 
+        "eWss4A", 
+        "Hp<?w6", 
+        "!o'Cmd", 
+        "&{Zpz_", 
+        "2#GNLYe`86lq", 
+        "W)}j@9", 
+        "/AH;1\\", 
+        "&t9NY=", 
+        "76hC^j", 
+        "?\u001f,ES44", 
+        "Z*&m(N", 
+        "*wkj$N[-", 
+        "NR.#qj", 
+        "%lL7y;c", 
+        "e&L3\"NX|", 
+        "7&'`zAT>uV", 
+        "'Qfe_\u001f", 
+        "d8yR?l", 
+        "ml2Fpj", 
+        "75IN*H", 
+        "L!SkV&\"", 
+        "AK(ZjB\u001f7", 
+        "(U~[Pr0", 
+        "G'WYi-", 
+        "3-<}4Y", 
+        "jmd ]f", 
+        "t4y+4b;2", 
+        "W='SFO", 
+        "h7KZ\"\u001f", 
+        "+;;-/f", 
+        "t(qEWH[", 
+        "p:?Owsj", 
+        "\"@)FQ_", 
+        "P.Ynzaap\"", 
+        "*gv.V(", 
+        "dp^\\33", 
+        "HX*2>5Y", 
+        "ee18w<", 
+        "ra]IM[", 
+        "~Y*Xz(", 
+        "VS_VERSION_INFO", 
+        "StringFileInfo", 
+        "040904b0", 
+        "CompanyName", 
+        "Macromedia, Inc.", 
+        "FileDescription", 
+        "Macromedia Flash Player 7.0  r14", 
+        "FileVersion", 
+        "7,0,14,0", 
+        "InternalName", 
+        "Macromedia Flash Player 7.0", 
+        "LegalCopyright", 
+        "Copyright ", 
+        " 1996-2003 Macromedia, Inc.", 
+        "LegalTrademarks", 
+        "Macromedia Flash Player", 
+        "OriginalFilename", 
+        "SAFlashPlayer.exe", 
+        "ProductName", 
+        "Shockwave Flash", 
+        "ProductVersion", 
+        "7,0,14,0", 
+        "VarFileInfo", 
+        "Translation"
+    ], 
+    "virustotal": {
+        "scan_id": "d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b-1406635910", 
+        "sha1": "0a25b27e5a661f06981f848fa03013979db97828", 
+        "resource": "be876bed97a8ad07a33c6c8756815192", 
+        "response_code": 1, 
+        "scan_date": "2014-07-29 12:11:50", 
+        "permalink": "https://www.virustotal.com/file/d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b/analysis/1406635910/", 
+        "verbose_msg": "Scan finished, scan information embedded in this object", 
+        "sha256": "d8b17b04600765beae81a5a72433b0e84e95167b0617375886f23c190f37406b", 
+        "positives": 32, 
+        "total": 43, 
+        "md5": "be876bed97a8ad07a33c6c8756815192", 
+        "scans": {
+            "Bkav": {
+                "detected": true, 
+                "version": "1.3.0.4959", 
+                "result": "W32.HfsAutoA.Baa6", 
+                "update": "20140728"
+            }, 
+            "TotalDefense": {
+                "detected": true, 
+                "version": "37.0.11087", 
+                "result": "Win32/Protexor!packed", 
+                "update": "20140729"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": true, 
+                "version": "12.0.250.0", 
+                "result": "Gen:Trojan.Heur.KS.2", 
+                "update": "20140729"
+            }, 
+            "nProtect": {
+                "detected": false, 
+                "version": "2014-07-29.01", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "CMC": {
+                "detected": true, 
+                "version": "1.1.0.977", 
+                "result": "Backdoor.Win32.Bredavi!O", 
+                "update": "20140728"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": true, 
+                "version": "14.00", 
+                "result": "W32.Ramnit.DR", 
+                "update": "20140729"
+            }, 
+            "McAfee": {
+                "detected": true, 
+                "version": "6.0.4.564", 
+                "result": "W32/Ramnit.dr", 
+                "update": "20140729"
+            }, 
+            "Malwarebytes": {
+                "detected": false, 
+                "version": "1.75.0.1", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "AegisLab": {
+                "detected": false, 
+                "version": "1.5", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "K7AntiVirus": {
+                "detected": true, 
+                "version": "9.181.12872", 
+                "result": "Trojan ( 001f82c71 )", 
+                "update": "20140728"
+            }, 
+            "K7GW": {
+                "detected": true, 
+                "version": "9.181.12872", 
+                "result": "Trojan ( 001f82c71 )", 
+                "update": "20140728"
+            }, 
+            "TheHacker": {
+                "detected": false, 
+                "version": "6.8.0.5.473", 
+                "result": null, 
+                "update": "20140728"
+            }, 
+            "NANO-Antivirus": {
+                "detected": true, 
+                "version": "0.28.2.61148", 
+                "result": "Trojan.Win32.Inject.csfhjx", 
+                "update": "20140729"
+            }, 
+            "ESET-NOD32": {
+                "detected": false, 
+                "version": "10170", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "TrendMicro-HouseCall": {
+                "detected": true, 
+                "version": "9.700.0.1001", 
+                "result": "TROJ_GEN.R021C0FGR14", 
+                "update": "20140729"
+            }, 
+            "ClamAV": {
+                "detected": false, 
+                "version": "0.98.4.0", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "Kaspersky": {
+                "detected": true, 
+                "version": "12.0.0.1225", 
+                "result": "Backdoor.Win32.Bredavi.dxr", 
+                "update": "20140729"
+            }, 
+            "BitDefender": {
+                "detected": true, 
+                "version": "7.2", 
+                "result": "Gen:Trojan.Heur.KS.2", 
+                "update": "20140729"
+            }, 
+            "Agnitum": {
+                "detected": true, 
+                "version": "5.5.1.3", 
+                "result": "Trojan.Ramnit.Gen!Pac.6", 
+                "update": "20140727"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "Ad-Aware": {
+                "detected": true, 
+                "version": "12.0.163.0", 
+                "result": "Gen:Trojan.Heur.KS.2", 
+                "update": "20140729"
+            }, 
+            "Comodo": {
+                "detected": true, 
+                "version": "19012", 
+                "result": "TrojWare.Win32.Kryptik.ILZ", 
+                "update": "20140729"
+            }, 
+            "F-Secure": {
+                "detected": true, 
+                "version": "11.0.19100.45", 
+                "result": "Gen:Trojan.Heur.KS.2", 
+                "update": "20140729"
+            }, 
+            "VIPRE": {
+                "detected": true, 
+                "version": "31714", 
+                "result": "Trojan.Win32.Generic!BT", 
+                "update": "20140729"
+            }, 
+            "AntiVir": {
+                "detected": true, 
+                "version": "7.11.164.86", 
+                "result": "TR/Crypt.XPACK.Gen3", 
+                "update": "20140729"
+            }, 
+            "TrendMicro": {
+                "detected": true, 
+                "version": "9.740.0.1012", 
+                "result": "TROJ_GEN.R021C0FGR14", 
+                "update": "20140729"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": true, 
+                "version": "2013", 
+                "result": "Heuristic.LooksLike.Win32.SuspiciousPE.J!89", 
+                "update": "20140728"
+            }, 
+            "Emsisoft": {
+                "detected": true, 
+                "version": "3.0.0.600", 
+                "result": "Gen:Trojan.Heur.KS.2 (B)", 
+                "update": "20140729"
+            }, 
+            "Jiangmin": {
+                "detected": true, 
+                "version": "16.0.100", 
+                "result": "Backdoor/Bredavi.nl", 
+                "update": "20140725"
+            }, 
+            "Antiy-AVL": {
+                "detected": true, 
+                "version": "1.0.0.1", 
+                "result": "Trojan[Backdoor]/Win32.Bredavi", 
+                "update": "20140729"
+            }, 
+            "Kingsoft": {
+                "detected": true, 
+                "version": "2013.4.9.267", 
+                "result": "Win32.Hack.Bredavi.(kcloud)", 
+                "update": "20140729"
+            }, 
+            "Microsoft": {
+                "detected": false, 
+                "version": "1.10802", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "ViRobot": {
+                "detected": false, 
+                "version": "2011.4.7.4223", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "GData": {
+                "detected": true, 
+                "version": "24", 
+                "result": "Gen:Trojan.Heur.KS.2", 
+                "update": "20140729"
+            }, 
+            "Commtouch": {
+                "detected": true, 
+                "version": "5.4.1.7", 
+                "result": "W32/Ramnit.H.gen!Eldorado", 
+                "update": "20140729"
+            }, 
+            "AhnLab-V3": {
+                "detected": true, 
+                "version": "2014.07.29.03", 
+                "result": "Backdoor/Win32.Bredavi", 
+                "update": "20140729"
+            }, 
+            "Baidu-International": {
+                "detected": false, 
+                "version": "3.5.1.41473", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "Zoner": {
+                "detected": false, 
+                "version": "1.0", 
+                "result": null, 
+                "update": "20140723"
+            }, 
+            "Ikarus": {
+                "detected": true, 
+                "version": "T3.1.6.1.0", 
+                "result": "Backdoor.Win32.Bredavi", 
+                "update": "20140729"
+            }, 
+            "Fortinet": {
+                "detected": true, 
+                "version": "5.1.152.0", 
+                "result": "W32/Bredavi.CN!tr.bdr", 
+                "update": "20140729"
+            }, 
+            "AVG": {
+                "detected": true, 
+                "version": "14.0.0.3986", 
+                "result": "Win32/Heri", 
+                "update": "20140729"
+            }, 
+            "Panda": {
+                "detected": true, 
+                "version": "10.0.3.5", 
+                "result": "Generic Trojan", 
+                "update": "20140729"
+            }, 
+            "Qihoo-360": {
+                "detected": true, 
+                "version": "1.0.0.1015", 
+                "result": "Malware.QVM19.Gen", 
+                "update": "20140729"
+            }
+        }
+    }, 
+    "network": {
+        "udp": [
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 59557
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 59557
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 59557
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 59557
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 57448
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 57448
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 57448
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 57448
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 53420
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 53420
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 52298
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 52298
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 53420
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 53420
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 52298
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 52298
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 63138
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 63138
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 63138
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.102", 
+                "dst": "224.0.0.252", 
+                "sport": 63138
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63139
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63139
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63139
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63139
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63141
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63141
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 62965
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63141
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 63141
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.102", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.102", 
+                "dst": "239.255.255.250", 
+                "sport": 59560
+            }
+        ], 
+        "irc": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "hosts": [
+            "239.255.255.250"
+        ], 
+        "pcap_sha256": "a448d7127b39bc24001e91a6bfe9d627bd3bb43ef3034c692cb6dbb40b17fe23", 
+        "dns": [], 
+        "domains": [], 
+        "icmp": []
+    }
+}

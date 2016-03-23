@@ -1,0 +1,3588 @@
+{
+    "info": {
+        "category": "file", 
+        "package": "", 
+        "started": "2014-08-03 13:25:34", 
+        "custom": "", 
+        "machine": {
+            "shutdown_on": "2014-08-03 13:26:01", 
+            "label": "win7_4", 
+            "manager": "VirtualBox", 
+            "started_on": "2014-08-03 13:25:36", 
+            "id": 464, 
+            "name": "win7_4"
+        }, 
+        "ended": "2014-08-03 13:26:02", 
+        "version": "1.2-dev", 
+        "duration": 28, 
+        "id": 464
+    }, 
+    "signatures": [], 
+    "static": {
+        "pe_imports": [
+            {
+                "imports": [
+                    {
+                        "name": "GetProcAddress", 
+                        "address": "0x10019000"
+                    }, 
+                    {
+                        "name": "GetModuleHandleA", 
+                        "address": "0x10019004"
+                    }, 
+                    {
+                        "name": "InitializeCriticalSection", 
+                        "address": "0x10019008"
+                    }, 
+                    {
+                        "name": "DeleteCriticalSection", 
+                        "address": "0x1001900c"
+                    }, 
+                    {
+                        "name": "EnterCriticalSection", 
+                        "address": "0x10019010"
+                    }, 
+                    {
+                        "name": "LeaveCriticalSection", 
+                        "address": "0x10019014"
+                    }, 
+                    {
+                        "name": "GetTempPathA", 
+                        "address": "0x10019018"
+                    }, 
+                    {
+                        "name": "GetCurrentDirectoryA", 
+                        "address": "0x1001901c"
+                    }, 
+                    {
+                        "name": "GetCurrentProcessId", 
+                        "address": "0x10019020"
+                    }, 
+                    {
+                        "name": "GetCurrentThreadId", 
+                        "address": "0x10019024"
+                    }, 
+                    {
+                        "name": "GetTickCount", 
+                        "address": "0x10019028"
+                    }, 
+                    {
+                        "name": "QueryPerformanceCounter", 
+                        "address": "0x1001902c"
+                    }, 
+                    {
+                        "name": "IsDebuggerPresent", 
+                        "address": "0x10019030"
+                    }, 
+                    {
+                        "name": "SetUnhandledExceptionFilter", 
+                        "address": "0x10019034"
+                    }, 
+                    {
+                        "name": "UnhandledExceptionFilter", 
+                        "address": "0x10019038"
+                    }, 
+                    {
+                        "name": "GetCurrentProcess", 
+                        "address": "0x1001903c"
+                    }, 
+                    {
+                        "name": "TerminateProcess", 
+                        "address": "0x10019040"
+                    }, 
+                    {
+                        "name": "InterlockedCompareExchange", 
+                        "address": "0x10019044"
+                    }, 
+                    {
+                        "name": "Sleep", 
+                        "address": "0x10019048"
+                    }, 
+                    {
+                        "name": "InterlockedExchange", 
+                        "address": "0x1001904c"
+                    }, 
+                    {
+                        "name": "GetSystemTimeAsFileTime", 
+                        "address": "0x10019050"
+                    }
+                ], 
+                "dll": "KERNEL32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "isdigit", 
+                        "address": "0x10019058"
+                    }, 
+                    {
+                        "name": "isalpha", 
+                        "address": "0x1001905c"
+                    }, 
+                    {
+                        "name": "sscanf", 
+                        "address": "0x10019060"
+                    }, 
+                    {
+                        "name": "atof", 
+                        "address": "0x10019064"
+                    }, 
+                    {
+                        "name": "strncpy", 
+                        "address": "0x10019068"
+                    }, 
+                    {
+                        "name": "??2@YAPAXI@Z", 
+                        "address": "0x1001906c"
+                    }, 
+                    {
+                        "name": "strcspn", 
+                        "address": "0x10019070"
+                    }, 
+                    {
+                        "name": "atoi", 
+                        "address": "0x10019074"
+                    }, 
+                    {
+                        "name": "strspn", 
+                        "address": "0x10019078"
+                    }, 
+                    {
+                        "name": "sprintf", 
+                        "address": "0x1001907c"
+                    }, 
+                    {
+                        "name": "isprint", 
+                        "address": "0x10019080"
+                    }, 
+                    {
+                        "name": "vsprintf", 
+                        "address": "0x10019084"
+                    }, 
+                    {
+                        "name": "_errno", 
+                        "address": "0x10019088"
+                    }, 
+                    {
+                        "name": "_stat64i32", 
+                        "address": "0x1001908c"
+                    }, 
+                    {
+                        "name": "_purecall", 
+                        "address": "0x10019090"
+                    }, 
+                    {
+                        "name": "remove", 
+                        "address": "0x10019094"
+                    }, 
+                    {
+                        "name": "_close", 
+                        "address": "0x10019098"
+                    }, 
+                    {
+                        "name": "?_open@@YAHPBDHH@Z", 
+                        "address": "0x1001909c"
+                    }, 
+                    {
+                        "name": "_unlock", 
+                        "address": "0x100190a0"
+                    }, 
+                    {
+                        "name": "_encode_pointer", 
+                        "address": "0x100190a4"
+                    }, 
+                    {
+                        "name": "__dllonexit", 
+                        "address": "0x100190a8"
+                    }, 
+                    {
+                        "name": "_lock", 
+                        "address": "0x100190ac"
+                    }, 
+                    {
+                        "name": "_onexit", 
+                        "address": "0x100190b0"
+                    }, 
+                    {
+                        "name": "_decode_pointer", 
+                        "address": "0x100190b4"
+                    }, 
+                    {
+                        "name": "_malloc_crt", 
+                        "address": "0x100190b8"
+                    }, 
+                    {
+                        "name": "_encoded_null", 
+                        "address": "0x100190bc"
+                    }, 
+                    {
+                        "name": "free", 
+                        "address": "0x100190c0"
+                    }, 
+                    {
+                        "name": "_initterm", 
+                        "address": "0x100190c4"
+                    }, 
+                    {
+                        "name": "_initterm_e", 
+                        "address": "0x100190c8"
+                    }, 
+                    {
+                        "name": "_amsg_exit", 
+                        "address": "0x100190cc"
+                    }, 
+                    {
+                        "name": "_adjust_fdiv", 
+                        "address": "0x100190d0"
+                    }, 
+                    {
+                        "name": "__CppXcptFilter", 
+                        "address": "0x100190d4"
+                    }, 
+                    {
+                        "name": "?terminate@@YAXXZ", 
+                        "address": "0x100190d8"
+                    }, 
+                    {
+                        "name": "?_type_info_dtor_internal_method@type_info@@QAEXXZ", 
+                        "address": "0x100190dc"
+                    }, 
+                    {
+                        "name": "_crt_debugger_hook", 
+                        "address": "0x100190e0"
+                    }, 
+                    {
+                        "name": "_except_handler4_common", 
+                        "address": "0x100190e4"
+                    }, 
+                    {
+                        "name": "__clean_type_info_names_internal", 
+                        "address": "0x100190e8"
+                    }, 
+                    {
+                        "name": "strstr", 
+                        "address": "0x100190ec"
+                    }, 
+                    {
+                        "name": "memset", 
+                        "address": "0x100190f0"
+                    }, 
+                    {
+                        "name": "memcpy", 
+                        "address": "0x100190f4"
+                    }, 
+                    {
+                        "name": "__RTDynamicCast", 
+                        "address": "0x100190f8"
+                    }, 
+                    {
+                        "name": "__CxxFrameHandler3", 
+                        "address": "0x100190fc"
+                    }, 
+                    {
+                        "name": "??0exception@std@@QAE@ABV01@@Z", 
+                        "address": "0x10019100"
+                    }, 
+                    {
+                        "name": "_CxxThrowException", 
+                        "address": "0x10019104"
+                    }, 
+                    {
+                        "name": "??0exception@std@@QAE@XZ", 
+                        "address": "0x10019108"
+                    }, 
+                    {
+                        "name": "??3@YAXPAX@Z", 
+                        "address": "0x1001910c"
+                    }, 
+                    {
+                        "name": "??1exception@std@@UAE@XZ", 
+                        "address": "0x10019110"
+                    }, 
+                    {
+                        "name": "?what@exception@std@@UBEPBDXZ", 
+                        "address": "0x10019114"
+                    }, 
+                    {
+                        "name": "??0exception@std@@QAE@ABQBDH@Z", 
+                        "address": "0x10019118"
+                    }, 
+                    {
+                        "name": "rename", 
+                        "address": "0x1001911c"
+                    }
+                ], 
+                "dll": "MSVCR80.dll"
+            }
+        ], 
+        "peid_signatures": null, 
+        "pe_timestamp": "2006-10-23 10:08:32", 
+        "pe_exports": [
+            {
+                "ordinal": 2, 
+                "name": "BIBUtilsGetVersion", 
+                "address": "0x10004b90"
+            }, 
+            {
+                "ordinal": 3, 
+                "name": "BIBUtilsInitialize", 
+                "address": "0x10004d80"
+            }, 
+            {
+                "ordinal": 4, 
+                "name": "BIBUtilsTerminate", 
+                "address": "0x10004e30"
+            }
+        ], 
+        "imported_dll_count": 2, 
+        "pe_imphash": null, 
+        "pe_resources": [], 
+        "pe_versioninfo": [
+            {
+                "name": "LegalCopyright", 
+                "value": "\\xa9 1993-2006 Adobe Systems Incorporated"
+            }, 
+            {
+                "name": "InternalName", 
+                "value": "BIBUtils"
+            }, 
+            {
+                "name": "FileVersion", 
+                "value": "1.1.01"
+            }, 
+            {
+                "name": "CompanyName", 
+                "value": "Adobe Systems Incorporated"
+            }, 
+            {
+                "name": "BuildVersion", 
+                "value": "44.255677"
+            }, 
+            {
+                "name": "ProductName", 
+                "value": "BIBUtils"
+            }, 
+            {
+                "name": "ProductVersion", 
+                "value": "1.1"
+            }, 
+            {
+                "name": "FileDescription", 
+                "value": "Bravo Interface Binder Utilities"
+            }, 
+            {
+                "name": "OriginalFilename", 
+                "value": "BIBUtils.dll"
+            }, 
+            {
+                "name": "BuildDate", 
+                "value": "Mon Oct 23 00:08:17 2006"
+            }, 
+            {
+                "name": "Translation", 
+                "value": "0x0800 0x04b0"
+            }
+        ], 
+        "pe_sections": [
+            {
+                "size_of_data": "0x00017800", 
+                "virtual_address": "0x00001000", 
+                "entropy": 6.300043826567251, 
+                "name": ".text", 
+                "virtual_size": "0x0001763a"
+            }, 
+            {
+                "size_of_data": "0x00009400", 
+                "virtual_address": "0x00019000", 
+                "entropy": 4.819024923170485, 
+                "name": ".rdata", 
+                "virtual_size": "0x0000934b"
+            }, 
+            {
+                "size_of_data": "0x00000c00", 
+                "virtual_address": "0x00023000", 
+                "entropy": 4.796092380370327, 
+                "name": ".data", 
+                "virtual_size": "0x00001298"
+            }, 
+            {
+                "size_of_data": "0x00000600", 
+                "virtual_address": "0x00025000", 
+                "entropy": 4.33999087324052, 
+                "name": ".rsrc", 
+                "virtual_size": "0x00000594"
+            }, 
+            {
+                "size_of_data": "0x00003000", 
+                "virtual_address": "0x00026000", 
+                "entropy": 6.037922578087541, 
+                "name": ".reloc", 
+                "virtual_size": "0x00002e32"
+            }, 
+            {
+                "size_of_data": "0x00054c00", 
+                "virtual_address": "0x00029000", 
+                "entropy": 7.616655958907638, 
+                "name": ".text", 
+                "virtual_size": "0x00055000"
+            }
+        ]
+    }, 
+    "dropped": [], 
+    "behavior": {
+        "processtree": [
+            {
+                "parent_id": 3400, 
+                "pid": 3644, 
+                "children": [], 
+                "name": "rundll32.exe"
+            }
+        ], 
+        "processes": [
+            {
+                "parent_id": 3400, 
+                "process_name": "rundll32.exe", 
+                "process_id": 3644, 
+                "first_seen": "2014-08-03 13:25:54,069", 
+                "calls": [
+                    {
+                        "category": "threading", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3672", 
+                        "repeated": 0, 
+                        "api": "ExitThread", 
+                        "arguments": [
+                            {
+                                "name": "ExitCode", 
+                                "value": "0"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "filesystem", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3648", 
+                        "repeated": 0, 
+                        "api": "NtOpenFile", 
+                        "arguments": [
+                            {
+                                "name": "ShareAccess", 
+                                "value": "5"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "C:\\Users\\cuckoo\\AppData\\Local\\Temp\\b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258"
+                            }, 
+                            {
+                                "name": "DesiredAccess", 
+                                "value": "0x001200a9"
+                            }, 
+                            {
+                                "name": "FileHandle", 
+                                "value": "0x000000f0"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3648", 
+                        "repeated": 0, 
+                        "api": "NtCreateSection", 
+                        "arguments": [
+                            {
+                                "name": "ObjectAttributes", 
+                                "value": ""
+                            }, 
+                            {
+                                "name": "DesiredAccess", 
+                                "value": "0x00000004"
+                            }, 
+                            {
+                                "name": "SectionHandle", 
+                                "value": "0x000000ec"
+                            }, 
+                            {
+                                "name": "FileHandle", 
+                                "value": "0x000000f0"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3648", 
+                        "repeated": 0, 
+                        "api": "ZwMapViewOfSection", 
+                        "arguments": [
+                            {
+                                "name": "SectionOffset", 
+                                "value": "0x00000000"
+                            }, 
+                            {
+                                "name": "SectionHandle", 
+                                "value": "0x000000ec"
+                            }, 
+                            {
+                                "name": "ProcessHandle", 
+                                "value": "0xffffffff"
+                            }, 
+                            {
+                                "name": "BaseAddress", 
+                                "value": "0x00200000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetDllHandle", 
+                        "arguments": [
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "KERNELBASE.DLL"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "DecodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76edf020"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetDllHandle", 
+                        "arguments": [
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "KERNELBASE.DLL"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "DecodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76edf020"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetDllHandle", 
+                        "arguments": [
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "KERNELBASE.DLL"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "EncodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76ee324c"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3680", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "DecodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76edf020"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetDllHandle", 
+                        "arguments": [
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "KERNELBASE.DLL"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "DecodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76edf020"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetDllHandle", 
+                        "arguments": [
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "KERNELBASE.DLL"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "DecodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76edf020"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetDllHandle", 
+                        "arguments": [
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }, 
+                            {
+                                "name": "FileName", 
+                                "value": "KERNELBASE.DLL"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "EncodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76ee324c"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3684", 
+                        "repeated": 0, 
+                        "api": "LdrGetProcedureAddress", 
+                        "arguments": [
+                            {
+                                "name": "Ordinal", 
+                                "value": "0"
+                            }, 
+                            {
+                                "name": "FunctionName", 
+                                "value": "DecodePointer"
+                            }, 
+                            {
+                                "name": "FunctionAddress", 
+                                "value": "0x76edf020"
+                            }, 
+                            {
+                                "name": "ModuleHandle", 
+                                "value": "0x75080000"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": true, 
+                        "return": "0x00000000", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3648", 
+                        "repeated": 0, 
+                        "api": "NtOpenKey", 
+                        "arguments": [
+                            {
+                                "name": "DesiredAccess", 
+                                "value": "131097"
+                            }, 
+                            {
+                                "name": "KeyHandle", 
+                                "value": "0x000000f4"
+                            }, 
+                            {
+                                "name": "ObjectAttributes", 
+                                "value": "\\Registry\\MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\SideBySide"
+                            }
+                        ]
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": false, 
+                        "return": "0xc0000034", 
+                        "timestamp": "2014-08-03 13:25:54,069", 
+                        "thread_id": "3648", 
+                        "repeated": 0, 
+                        "api": "NtQueryValueKey", 
+                        "arguments": [
+                            {
+                                "name": "KeyHandle", 
+                                "value": "0x000000f4"
+                            }, 
+                            {
+                                "name": "ValueName", 
+                                "value": "PreferExternalManifest"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ], 
+        "anomaly": [], 
+        "enhanced": [
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "library", 
+                "data": {
+                    "pathtofile": null, 
+                    "file": "KERNELBASE.DLL", 
+                    "moduleaddress": null
+                }, 
+                "event": "load", 
+                "eid": 1
+            }, 
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "library", 
+                "data": {
+                    "pathtofile": null, 
+                    "file": "KERNELBASE.DLL", 
+                    "moduleaddress": null
+                }, 
+                "event": "load", 
+                "eid": 2
+            }, 
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "library", 
+                "data": {
+                    "pathtofile": null, 
+                    "file": "KERNELBASE.DLL", 
+                    "moduleaddress": null
+                }, 
+                "event": "load", 
+                "eid": 3
+            }, 
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "library", 
+                "data": {
+                    "pathtofile": null, 
+                    "file": "KERNELBASE.DLL", 
+                    "moduleaddress": null
+                }, 
+                "event": "load", 
+                "eid": 4
+            }, 
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "library", 
+                "data": {
+                    "pathtofile": null, 
+                    "file": "KERNELBASE.DLL", 
+                    "moduleaddress": null
+                }, 
+                "event": "load", 
+                "eid": 5
+            }, 
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "library", 
+                "data": {
+                    "pathtofile": null, 
+                    "file": "KERNELBASE.DLL", 
+                    "moduleaddress": null
+                }, 
+                "event": "load", 
+                "eid": 6
+            }, 
+            {
+                "timestamp": "2014-08-03 13:25:54,069", 
+                "object": "registry", 
+                "data": {
+                    "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\SideBySidePreferExternalManifest"
+                }, 
+                "event": "read", 
+                "eid": 7
+            }
+        ], 
+        "summary": {
+            "files": [
+                "C:\\Users\\cuckoo\\AppData\\Local\\Temp\\b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258"
+            ], 
+            "keys": [
+                "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\SideBySide"
+            ], 
+            "mutexes": []
+        }
+    }, 
+    "target": {
+        "category": "file", 
+        "file": {
+            "yara": [], 
+            "sha1": "3fcf168ad52152fc5f9c7142a1daaf8ab742c4d1", 
+            "name": "b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258", 
+            "type": "PE32 executable (DLL) (GUI) Intel 80386, for MS Windows", 
+            "sha256": "b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258", 
+            "crc32": "EC77646C", 
+            "path": "/home/ptrac3/cuckoo-master/storage/binaries/b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258", 
+            "ssdeep": "12288:82OWK4llwgoQyGzl/Eg725pvE1Mb8dC4+gt:8sK4lugoQyGzBEH5pM6b8dC4+gt", 
+            "size": 499666, 
+            "sha512": "71de0eddc22d01723de1c34d42141bc7c49d60bb0182deb745489383a52c859e4aa5a49c0dc85ca25debe898bb2020932af259ff3c565574248c3f3dd137040b", 
+            "md5": "2a2b5630f9e8fe7fddf932be0d919d83"
+        }
+    }, 
+    "debug": {
+        "errors": [], 
+        "log": "2014-03-08 08:50:58,009 [root] INFO: Starting analyzer from: C:\\eyhxv\n2014-03-08 08:50:58,049 [root] INFO: Storing results at: C:\\xuZVRULL\n2014-03-08 08:50:58,049 [root] INFO: Pipe server name: \\\\.\\PIPE\\SmWEoO\n2014-03-08 08:50:58,049 [root] INFO: No analysis package specified, trying to detect it automagically.\n2014-03-08 08:50:58,049 [root] INFO: Automatically selected analysis package \"dll\"\n2014-08-03 13:25:51,545 [root] INFO: Started auxiliary module Disguise\n2014-08-03 13:25:51,545 [root] INFO: Started auxiliary module Human\n2014-08-03 13:25:51,545 [root] INFO: Started auxiliary module Screenshots\n2014-08-03 13:25:51,555 [lib.api.process] INFO: Successfully executed process from path \"C:\\Windows\\system32\\rundll32.exe\" with arguments \"C:\\Users\\cuckoo\\AppData\\Local\\Temp\\b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258,DllMain\" with pid 3644\n2014-08-03 13:25:51,555 [lib.api.process] INFO: Using QueueUserAPC injection.\n2014-08-03 13:25:51,555 [lib.api.process] INFO: Successfully injected process with pid 3644.\n2014-08-03 13:25:53,918 [lib.api.process] INFO: Successfully resumed process with pid 3644\n2014-08-03 13:25:53,989 [root] INFO: Added new process to list with pid: 3644\n2014-08-03 13:25:54,019 [root] INFO: Announced process name: rundll32.exe\n2014-08-03 13:25:54,019 [root] INFO: Added new process to list with pid: 3644\n2014-08-03 13:25:54,049 [lib.api.process] INFO: Using CreateRemoteThread injection.\n2014-08-03 13:25:54,059 [root] INFO: Successfully injected process with pid 3644\n2014-08-03 13:25:55,102 [modules.auxiliary.human] INFO: Found button \"OK\", clicking it\n2014-08-03 13:25:57,025 [root] INFO: Process with pid 3644 has terminated\n2014-08-03 13:25:58,026 [root] INFO: Process with pid 3644 has terminated\n2014-08-03 13:25:58,026 [root] INFO: Process list is empty, terminating analysis.\n2014-08-03 13:25:59,028 [root] INFO: Terminating remaining processes before shutdown.\n2014-08-03 13:25:59,028 [root] INFO: Analysis completed.\n"
+    }, 
+    "strings": [
+        "!This program cannot be run in DOS mode.", 
+        "`.rdata", 
+        "@.data", 
+        "@.reloc", 
+        "B.text", 
+        "PQSUVW", 
+        "D$,Ph`<", 
+        "|$(UWQ", 
+        "D$$PQR", 
+        "D$$PQR", 
+        "D$$PQR", 
+        "D$,PQR", 
+        "L$$PWVQ", 
+        "D$$PQR", 
+        "D$(Ph$", 
+        "D$(Ph ", 
+        "D$HPhl", 
+        "|$(QPW", 
+        "|$(QPW", 
+        "SSSRh@P", 
+        "t.9>u*", 
+        "|$xVUW", 
+        "SSSRh@P", 
+        "D$\\UVW", 
+        "T$@RVU", 
+        "D$T< t", 
+        "PQSUVW", 
+        "PQSUVW", 
+        "D$h< t", 
+        "t.9>u*", 
+        "D$@PQV", 
+        "D$X;F0", 
+        ";l$ u=", 
+        "9D$ tB", 
+        "D$PSWQ", 
+        "D$,#t8j", 
+        "I0VVVRh", 
+        "I0VVVRh", 
+        "@0SSSQh", 
+        "PQSUVW", 
+        "t$Wh@L", 
+        "bad allocation", 
+        "SetCriticalSectionSpinCount", 
+        "KERNEL32.DLL", 
+        "BIBStringInterface", 
+        "BIBErrorInterface", 
+        "BIBMemoryInterface", 
+        "BIBSharedBuffInterface", 
+        "BIBCacheInterface", 
+        "BIBContainerInterface", 
+        "couldn't get signature", 
+        "invalid container", 
+        "Invalid CBIBError", 
+        "BIBCacheRemoveIDsProc", 
+        "RemoveIDs", 
+        "BIBCacheRemoveIDProc", 
+        "RemoveID", 
+        "BIBCacheSearchForIDProc", 
+        "SearchForID", 
+        "BIBCacheDeleteCacheSetProc", 
+        "DeleteCacheSet", 
+        "BIBCacheAddRefCacheSetProc", 
+        "AddRefCacheSet", 
+        "BIBCacheNewCacheSetProc", 
+        "NewCacheSet", 
+        "RemoveClientPurge", 
+        "AddClientPurge", 
+        "BIBCachePurgeAllStaticCachesProc", 
+        "PurgeAllStaticCaches", 
+        "BIBCacheDeleteCachePurgeProc", 
+        "DeleteCachePurge", 
+        "BIBCachePurgeNextBlockProc", 
+        "PurgeNextBlock", 
+        "BIBCacheNewCachePurgeProc", 
+        "NewCachePurge", 
+        "BIBCurrentCacheSizeProc", 
+        "CurrentCacheSize", 
+        "BIBCacheGetCacheTimeProc", 
+        "GetCacheTime", 
+        "BIBCacheMarkPurgeProc", 
+        "MarkPurge", 
+        "BIBCacheMarkNoPurgeProcV2", 
+        "MarkNoPurge", 
+        "BIBCacheReturnCostProc", 
+        "ReturnCost", 
+        "BIBCacheUpdateCostProc", 
+        "UpdateCost", 
+        "BIBCacheAddProc", 
+        "BIBCacheAttachProcV2", 
+        "Attach", 
+        "BIBCacheReleaseProc", 
+        "Release", 
+        "BIBCacheAddRefProc", 
+        "AddRef", 
+        "BIBCacheNewCacheIDProc", 
+        "NewCacheID", 
+        "BIBCacheAddRemoveClientPurgeProcV2", 
+        "BIBGetErrorInfoProc", 
+        "GetErrorInfo", 
+        "BIBErrorGetIDProc", 
+        "BIBErrorGetComponentProc", 
+        "GetComponent", 
+        "BIBErrorGetMessageProc", 
+        "GetErrorMessage", 
+        "BIBErrorReleaseProc", 
+        "BIBErrorAddRefProcV2", 
+        "BIBGetCoreErrorProc", 
+        "GetCoreError", 
+        "BIBNewErrorProc", 
+        "NewError", 
+        "Missing Interface", 
+        "BIBMemGetBlockSizeProc", 
+        "GetBlockSize", 
+        "BIBMemFreeProc", 
+        "BIBMemReallocProc", 
+        "Realloc", 
+        "BIBMemAllocProc", 
+        "BIBGetOffsetToPrimaryInstProc", 
+        "GetOffsetToPrimaryInstance", 
+        "BIBGetRefCountAddrProc", 
+        "DebugGetRefCountAddr", 
+        "BIBGetSignatureProc", 
+        "GetSignature", 
+        "BIBNGetInstanceProc", 
+        "NGetInstance", 
+        "BIBGetInstanceProc", 
+        "GetInstance", 
+        "BIBGetParentMethodV2Proc", 
+        "GetParentMethod", 
+        "BIBGetMethodV3Proc", 
+        "GetMethod", 
+        "BIBRegisterInstanceV2Proc", 
+        "RegisterInstance", 
+        "BIBRegisterInterfaceV2Proc", 
+        "RegisterInterface", 
+        "BIBDeleteUnownedContainerProc", 
+        "DeleteUnownedContainer", 
+        "BIBDecrementWithoutDeleteProc", 
+        "DecrementWithoutDelete", 
+        "BIBReleaseContainerProc", 
+        "BIBAddRefContainerV2Proc", 
+        "BIBCloneContainerProc", 
+        "CloneContainer", 
+        "BIBNewContainerV2Proc", 
+        "NewContainer", 
+        "BIBNewFullContainerV5Proc", 
+        "NewFullContainer", 
+        "BIBSharedBuffGetSizeProc", 
+        "GetSize", 
+        "BIBSharedBuffGetBufferProc", 
+        "GetBuffer", 
+        "BIBSharedBuffReleaseProc", 
+        "BIBSharedBuffAddRefProc", 
+        "BIBSharedBuffDelUnownedProc", 
+        "DeleteUnowned", 
+        "BIBSharedBuffNewBufferV2Proc", 
+        "NewBuffer", 
+        "BIBNewClientPositionableStreamProc", 
+        "NewClientPositionableStream", 
+        "BIBNewClientRewindableStreamProc", 
+        "NewClientRewindableStream", 
+        "BIBNewClientSimpleStreamProc", 
+        "NewClientSimpleStream", 
+        "BIBNewPositionableFileStreamProc", 
+        "NewPositionableFileStream", 
+        "BIBNewPositionableBufferStreamProc", 
+        "NewPositionableBufferStream", 
+        "BIBNewPositionableMemoryStreamProc", 
+        "NewPositionableMemoryStream", 
+        "BIBStreamFactoryInterface", 
+        "BIBAddRefStringAtomProc", 
+        "BIBGetCStringProc", 
+        "GetCString", 
+        "BIBDeleteStringAtomProc", 
+        "DeleteStringAtom", 
+        "BIBNewStringAtomProc", 
+        "NewStringAtom", 
+        "BIBDataStoreGetBlockProcV2", 
+        "GetBlock", 
+        "BIBSizedDataStoreGetSizeProc", 
+        "BIBDataBlockStreamRewindProc", 
+        "Rewind", 
+        "BIBDataBlockStreamGetNextBlockProc", 
+        "GetNextBlock", 
+        "BIBSimpleStreamWriteProc", 
+        "BIBSimpleStreamReadProc", 
+        "BIBRewindableStreamRewindProc", 
+        "BIBRewindableStreamCreateIndependentlyRewindableStreamProc", 
+        "CreateIndependentlyRewindableStream", 
+        "BIBPositionableStreamSeekProc", 
+        "BIBPositionableStreamMarkProc", 
+        "BIBPositionableStreamCreateIndependentlyPositionableStreamProc", 
+        "CreateIndependentlyPositionableStream", 
+        "BIBIsMultiThreaded", 
+        "BIBGetUnregisterCountAddr", 
+        "BIBUnregisterInterface", 
+        "BIBReportError", 
+        "BIBRegisterProcAddress", 
+        "POSObjectIsEqualProc", 
+        "IsEqual", 
+        "POSObjectCloneProc", 
+        "POSObjectCreateFromTextProc", 
+        "CreateFromText", 
+        "POSObjectDebugDumpWithHeaderProc", 
+        "DebugDumpWithHeader", 
+        "POSObjectDebugDumpProc", 
+        "DebugDump", 
+        "POSObjectStatics", 
+        "POSNumberGetProc", 
+        "POSNumberIsPOSNumberProc", 
+        "IsPOSNumber", 
+        "POSNumberNewPOSNumberProc", 
+        "NewPOSNumber", 
+        "POSNumberInterface", 
+        "POSStringGetProc", 
+        "POSStringIsPOSStringProc", 
+        "IsPOSString", 
+        "POSStringNewPOSStringProc", 
+        "NewPOSString", 
+        "POSStringInterface", 
+        "POSUnicodeStringGetProc", 
+        "POSUnicodeStringIsPOSUnicodeStringProc", 
+        "IsPOSUnicodeString", 
+        "POSUnicodeStringNewPOSUnicodeStringProc", 
+        "NewPOSUnicodeString", 
+        "POSUnicodeStringInterface", 
+        "POSBinDataGetSizeProc", 
+        "POSBinDataGetBinDataProc", 
+        "GetBinData", 
+        "POSBinDataGetTypeNameProc", 
+        "GetTypeName", 
+        "POSBinDataIsPOSBinDataProc", 
+        "IsPOSBinData", 
+        "POSBinDataNewPOSBinDataProc", 
+        "NewPOSBinData", 
+        "POSBinDataInterface", 
+        "POSRawPointerGetReleaseProcProc", 
+        "GetReleaseProc", 
+        "POSRawPointerGetRawPointerProc", 
+        "GetRawPointer", 
+        "POSRawPointerIsPOSRawPointerProc", 
+        "IsPOSRawPointer", 
+        "POSRawPointerNewPOSRawPointerProc", 
+        "NewPOSRawPointer", 
+        "POSRawPointerInterface", 
+        "POSArrayRemoveProc", 
+        "Remove", 
+        "POSArrayAppendProc", 
+        "Append", 
+        "POSArraySetAtProc", 
+        "POSArrayCountProc", 
+        "POSArrayGetAtProc", 
+        "POSArrayIsPOSArrayProc", 
+        "IsPOSArray", 
+        "POSArrayNewPOSArrayProc", 
+        "NewPOSArray", 
+        "POSArrayInterface", 
+        "POSDictRemoveProc", 
+        "POSDictPutProc", 
+        "POSDictDeepGetProc", 
+        "DeepGet", 
+        "POSDictGetProc", 
+        "POSDictIsPOSDictProc", 
+        "IsPOSDict", 
+        "POSDictNewPOSDictProc", 
+        "NewPOSDict", 
+        "POSDictInterface", 
+        "POSDictIteratorCurKeyProc", 
+        "CurKey", 
+        "POSDictIteratorIsDoneProc", 
+        "IsDone", 
+        "POSDictIteratorNextProc", 
+        "POSDictIteratorBeginProc", 
+        "POSDictIteratorNewPOSDictIteratorProc", 
+        "NewPOSDictIterator", 
+        "POSDictIteratorInterface", 
+        "POSStreamerDeserializeProc", 
+        "Deserialize", 
+        "POSStreamerSerializeProc", 
+        "Serialize", 
+        "POSStreamerNewPOSStreamerProc", 
+        "NewPOSStreamer", 
+        "POSStreamerInterface", 
+        "POSValidatorValidateProc", 
+        "Validate", 
+        "POSStructValidatorValidateSchemaProc", 
+        "ValidateSchema", 
+        "POSStructValidatorRegisterCallbackProc", 
+        "RegisterCallbackProc", 
+        "POSStructValidatorNewStructValidatorProc", 
+        "NewPOSStructValidator", 
+        "POSStructValidatorInterface", 
+        "BIBUtilsDirCreateUniqueFilename", 
+        "CreateUniqueFilename", 
+        "BIBUtilsDirGetFilePathSpec", 
+        "GetFilePathSpec", 
+        "BIBUtilsDirRename", 
+        "Rename", 
+        "BIBUtilsDirDelete", 
+        "Delete", 
+        "BIBUtilsDirFileExists", 
+        "FileExists", 
+        "BIBUtilsDirNewBIBUtilsDir", 
+        "NewBIBUtilsDir", 
+        "BIBUtilsDirGetCurrent", 
+        "GetCurrent", 
+        "BIBUtilsDirGetTempDir", 
+        "GetTempDir", 
+        "BIBUtilsDirInterface", 
+        "downcast from CPOSObject to CPOSNumber failed", 
+        "downcast from CPOSObject to CPOSString failed", 
+        "downcast from CPOSObject to CPOSBinData failed", 
+        "downcast from CPOSObject to CPOSRawPointer failed", 
+        "downcast from CPOSObject to CPOSBIBObjRef failed", 
+        "downcast from CPOSObject to CPOSArray failed", 
+        "downcast from CPOSObject to CPOSDict failed", 
+        "CPOSDict::Get failed", 
+        "CPOSArray::GetAt subscript failed", 
+        "POSObjectImpl", 
+        "POSObjectInterface", 
+        "POSDictIteratorImpl", 
+        "POSStreamerImpl", 
+        "POSValidatorImpl", 
+        "POSValidatorInterface", 
+        "BIBUtilsDir", 
+        "CPOSObject::Clone failed", 
+        "instance was not an POSNumber", 
+        "instance was not an POSString", 
+        "instance was not an POSUnicodeString", 
+        "instance was not an POSBinData", 
+        "instance was not an POSRawPointer", 
+        "instance was not an POSArray", 
+        "instance was not an POSDict", 
+        "Exceeded max string length", 
+        "%02X%02x", 
+        "Exceeded max number length", 
+        "unknown BIB error", 
+        "Dict::Get lookup failed", 
+        "Unexpected character", 
+        "Bad parser state", 
+        "Expected dictionary key string", 
+        "Unexpected >", 
+        "Unexpected ]", 
+        "Empty text string", 
+        "Unexpected characters after object", 
+        "Dict::DeepGet cannot locate key", 
+        "Dict::DeepGet entry on non-dict", 
+        "Dict::DeepGet malformed array subscript []", 
+        "Dict::DeepGet subscript out of range", 
+        "0123456789", 
+        "Dict::DeepGet subscript on non-array", 
+        "Dict::DeepGet malformed address at: XXXXXX", 
+        "Dict::DeepGet lookup failed", 
+        "getNextChar unexpected EOF", 
+        "StreamerBase::LookupStreamer unrecognized version", 
+        "POSObjectStreamerImpl::Deserialize failure", 
+        "0123456789ABCDEF", 
+        "+-0123456789.,", 
+        "GetChars ran out of input", 
+        "POSStreamerTypeA_Version1.0", 
+        "Cannot meaningfully read in a raw pointer (write is for debugging only)", 
+        "unexpected EOF", 
+        "Unexpected escape sequence", 
+        "Cannot determine writing params", 
+        "Cannot determine streaming params", 
+        "malformed number", 
+        "+-0123456789.Ee", 
+        "downcast from CPOSObject to CPOSUnicodeString failed", 
+        "missing dictionary value", 
+        "malformed Unicode string", 
+        "Unexpected chars after binary data", 
+        "Caught unknown exception: ", 
+        "Caught exception: ", 
+        "Cannot locate definition of type ", 
+        "CreateFromText failed", 
+        "Expected OBJREF was of invalid type", 
+        "Expected RAWPTR was of invalid type", 
+        "Expected BINDATA was of invalid type", 
+        "Expected UNICODESTRING was of invalid type", 
+        "Expected STRING was of invalid type", 
+        "Expected REAL was of invalid type", 
+        "INT was not a whole number", 
+        "Expected INT was of invalid type", 
+        "Expected BOOL was of invalid type", 
+        "BOOL was not a valid string (true/false)", 
+        "BOOL was a number unequal to zero or one", 
+        "?FormatIntoPOSString overwrote buffer", 
+        "Error buffer too small", 
+        "Number above maximum value %f (exclusive)", 
+        "Number below mininum value %f (exclusive)", 
+        "Number above maximum value %f", 
+        "Number below mininum value %f", 
+        "Unknown category in schema", 
+        "Failed intersection type %s:", 
+        "Not a valid union type:", 
+        "Trying %s:", 
+        "Unknown member %s", 
+        "%s (optional, type != %s):", 
+        "%s (required, type != %s):", 
+        "%s (value, type != %s):", 
+        "%s (key, type != %s):", 
+        "Missing required member %s", 
+        "Dict object expected", 
+        "Heterogenous array object size did not match type array size", 
+        "Array length above maximum value", 
+        "Array length below mininum value %d", 
+        "Array object expected", 
+        "TypeName is not one of the enumerated values", 
+        "Unicode String length above maximum value %d", 
+        "Unicode String length below mininum value %d", 
+        "String is not one of the enumerated values", 
+        "String contains illegal characters in '%s'", 
+        "String length above maximum value %d", 
+        "String length below mininum value %d", 
+        "Malformed schema definition for %s, no category", 
+        "Schema not applicable, no definition for %s", 
+        "StructSchema", 
+        "TypeName", 
+        "ctbaseobjref", 
+        "bibobjref", 
+        "rawptr", 
+        "bindata", 
+        "unicodestring", 
+        "string", 
+        "< category string oneof [int] > kReal", 
+        "< category string oneof [real] > kString", 
+        "< category string oneof [string] > kUnicodeString", 
+        "< category string oneof [unicodestring] > kBinData", 
+        "< category string oneof [bindata] > kObjRef", 
+        "< category string oneof [objref] > kArray", 
+        "< category string oneof [array] > kDict", 
+        "< category string oneof [dict] > kUnion", 
+        "< category string oneof [union] > kIntersection", 
+        "< category string oneof [intersection] > StringList", 
+        "< category array membertype string > TypeName", 
+        "< category string minlen 1 > TypeList", 
+        "< category array membertype TypeName > IntDefn", 
+        "< category dict required", 
+        "< category kInt > optional", 
+        "< min int minexcl int max int maxexcl int> >RealDefn", 
+        "< category dict required", 
+        "< category kReal > optional", 
+        "< min real minexcl real max real maxexcl real> >StringDefn", 
+        "< category dict required", 
+        "< category kString > optional", 
+        "< minlen real    maxlen real    illegalchars string    oneof StringList > >UnicodeStringDefn < category dict required", 
+        "< category kUnicodeString > optional", 
+        "< minlen real    maxlen real > >BinDataDefn", 
+        "< category dict required", 
+        "< category kBinData > optional", 
+        "< minlen real    maxlen real    oneof StringList > >ObjRefDefn", 
+        "< category dict required", 
+        "< category kObjRef > >HomoArrayDefn", 
+        "< category dict required", 
+        "< category kArray membertype TypeName> optional", 
+        "< minlen real maxlen real > >HeteroArrayDefn< category dict required", 
+        "< category kArray membertype TypeList> >ArrayDefn < category union set [ HomoArrayDefn HeteroArrayDefn ] > DictMemberName", 
+        "< category string minlen 1 >DictMemberDict", 
+        "< category dict keytype DictMemberName valuetype TypeName > DictDefn", 
+        "< category dict required", 
+        "< category kDict > optional", 
+        "< keytype TypeName valuetype TypeName required DictMemberDict optional DictMemberDict > > UnionDefn", 
+        "< category dict required", 
+        "< category kUnion set TypeList > > IntersectionDefn", 
+        "< category dict required", 
+        "< category kIntersection set TypeList > > TypeDefn", 
+        "< category union set [ DictDefn ArrayDefn IntDefn RealDefn StringDefn UnicodeStringDefn BinDataDefn ObjRefDefn UnionDefn IntersectionDefn ] >StructSchema", 
+        "< category dict keytype TypeName valuetype TypeDefn > >", 
+        "Schema is not valid", 
+        "keytype", 
+        "valuetype", 
+        "membertype", 
+        "illegalchars", 
+        "maxlen", 
+        "minlen", 
+        "maxexcl", 
+        "minexcl", 
+        "optional", 
+        "required", 
+        "intersection", 
+        "custom", 
+        "category", 
+        "BIBUtilsTempFileStreamFactory", 
+        "BIBUtilsDirImpl::CreateUniqueFilename: Cannot find a unique file spec", 
+        "%s%04X%04X.%s", 
+        "NewTempFileStream", 
+        "_BIBUtilsNewTempFileStreamProc_NewTempFileStream", 
+        "BIBUtilsDirImpl::GetTempDir: Cannot get temp dir", 
+        "BIBUtilsDirImpl::GetCurrent: Cannot get current dir", 
+        "%s%s%s", 
+        "BIBUtilsDirImpl::Rename: Invalid filename", 
+        "BIBUtilsDirImpl::Rename: Permission denied", 
+        "BIBUtilsDirImpl::Rename: Unknown error", 
+        "BIBUtilsDirImpl::Delete: Invalid filename", 
+        "BIBUtilsDirImpl::Delete: Permission denied", 
+        "BIBUtilsDirImpl::Delete: Unknown error", 
+        "BIBUtilsDirImpl::createNewFile: Invalid filename", 
+        "BIBUtilsDirImpl::createNewFile: Permission denied", 
+        "BIBUtilsDirImpl::createNewFile: Unknown error", 
+        "g:\\Acro_root_at\\bravo\\public\\libraries\\windows\\release\\dynamic\\bibutilsmtdll\\BIBUtils.pdb", 
+        "GetProcAddress", 
+        "GetModuleHandleA", 
+        "InitializeCriticalSection", 
+        "DeleteCriticalSection", 
+        "EnterCriticalSection", 
+        "LeaveCriticalSection", 
+        "GetTempPathA", 
+        "GetCurrentDirectoryA", 
+        "KERNEL32.dll", 
+        "??0exception@std@@QAE@ABQBDH@Z", 
+        "?what@exception@std@@UBEPBDXZ", 
+        "??1exception@std@@UAE@XZ", 
+        "??3@YAXPAX@Z", 
+        "??0exception@std@@QAE@XZ", 
+        "_CxxThrowException", 
+        "??0exception@std@@QAE@ABV01@@Z", 
+        "__CxxFrameHandler3", 
+        "__RTDynamicCast", 
+        "memcpy", 
+        "memset", 
+        "strstr", 
+        "_purecall", 
+        "isdigit", 
+        "isalpha", 
+        "sscanf", 
+        "strncpy", 
+        "??2@YAPAXI@Z", 
+        "strcspn", 
+        "strspn", 
+        "sprintf", 
+        "isprint", 
+        "vsprintf", 
+        "_errno", 
+        "_stat64i32", 
+        "rename", 
+        "remove", 
+        "_close", 
+        "?_open@@YAHPBDHH@Z", 
+        "MSVCR80.dll", 
+        "_unlock", 
+        "_encode_pointer", 
+        "__dllonexit", 
+        "_onexit", 
+        "_decode_pointer", 
+        "_malloc_crt", 
+        "_encoded_null", 
+        "_initterm", 
+        "_initterm_e", 
+        "_amsg_exit", 
+        "_adjust_fdiv", 
+        "__CppXcptFilter", 
+        "?terminate@@YAXXZ", 
+        "?_type_info_dtor_internal_method@type_info@@QAEXXZ", 
+        "_crt_debugger_hook", 
+        "_except_handler4_common", 
+        "__clean_type_info_names_internal", 
+        "InterlockedExchange", 
+        "InterlockedCompareExchange", 
+        "TerminateProcess", 
+        "GetCurrentProcess", 
+        "UnhandledExceptionFilter", 
+        "SetUnhandledExceptionFilter", 
+        "IsDebuggerPresent", 
+        "QueryPerformanceCounter", 
+        "GetTickCount", 
+        "GetCurrentThreadId", 
+        "GetCurrentProcessId", 
+        "GetSystemTimeAsFileTime", 
+        "BIBUtils.dll", 
+        "BIBUtilsGetVersion", 
+        "BIBUtilsInitialize", 
+        "BIBUtilsTerminate", 
+        ".?AVbad_alloc@std@@", 
+        ".?AVexception@std@@", 
+        ".?AVCBIBError@BIB_T_MT@@", 
+        ".?AV?$double_linked_list_element@VLazyTerminate@BIB_T_MT@@VBIBDLLEParent@@@@", 
+        ".?AVBIBDLLEParent@@", 
+        ".?AV?$double_linked_list_element@VBIBVTabGeneric@BIB_T_MT@@VCBIBClientBasePMT@2@@@", 
+        ".?AVCBIBClientBasePMT@BIB_T_MT@@", 
+        ".?AVCBIBClientBase@BIB_T_MT@@", 
+        ".?AVDelVTabListGeneric@BIB_T_MT@@", 
+        ".?AVLazyTerminate@BIB_T_MT@@", 
+        ".?AVBIBVTabListGeneric@BIB_T_MT@@", 
+        ".?AV?$no_construct_double_linked_list@VBIBVTabGeneric@BIB_T_MT@@VCBIBClientBasePMT@2@@@", 
+        ".?AV?$TDelVTabList@Uproctable_type@BIBDataStoreTraits@BIB_T_MT@@@BIB_T_MT@@", 
+        ".?AV?$TDelVTabList@Uproctable_type@BIBSizedDataStoreTraits@BIB_T_MT@@@BIB_T_MT@@", 
+        ".?AV?$TDelVTabList@Uproctable_type@BIBDataBlockStreamTraits@BIB_T_MT@@@BIB_T_MT@@", 
+        ".?AVBIBVTabGeneric@BIB_T_MT@@", 
+        ".?AVCBIBSimpleStreamTerminate@BIB_T_MT@@", 
+        ".?AVCBIBRewindableStreamTerminate@BIB_T_MT@@", 
+        ".?AVCBIBPositionableStreamTerminate@BIB_T_MT@@", 
+        ".?AVBRVException@@", 
+        ".?AVPOSException@BIB_T_MT@@", 
+        ".?AVCPOSObjectTerminate@BIB_T_MT@@", 
+        ".?AVCPOSValidatorTerminate@BIB_T_MT@@", 
+        ".?AVBaseObject@NPOSObjectImpl@@", 
+        ".?AVNumber@NPOSObjectImpl@@", 
+        ".?AVRawPointer@NPOSObjectImpl@@", 
+        ".?AVDictIterator@NPOSObjectImpl@@", 
+        ".?AVArray@NPOSObjectImpl@@", 
+        ".?AVCFTParseError@?A0x98ba442b@@", 
+        ".?AVString@NPOSObjectImpl@@", 
+        ".?AVUnicodeString@NPOSObjectImpl@@", 
+        ".?AVBinData@NPOSObjectImpl@@", 
+        ".?AVDict@NPOSObjectImpl@@", 
+        ".?AVConstDictIterator@NPOSObjectImpl@@", 
+        ".?AVBIBImpl@NPOSStreamerImpl@@", 
+        ".?AVStreamerBase@NPOSStreamerImpl@@", 
+        ".?AVCharStream@NTypeAImpl@NPOSStreamerImpl@@", 
+        ".?AVTypeAStreamer@NTypeAImpl@NPOSStreamerImpl@@", 
+        ".?AVVersion10@NTypeAImpl@NPOSStreamerImpl@@", 
+        ".?AVOCharStream@NTypeAImpl@NPOSStreamerImpl@@", 
+        ".?AVICharStream@NTypeAImpl@NPOSStreamerImpl@@", 
+        ".?AVBaseValidator@NPOSValidatorImpl@@", 
+        ".?AVStructValidator@NPOSValidatorImpl@@", 
+        ".?AVCBIBVirtualClientBase@BIB_T_MT@@", 
+        ".?AVBIBClientSimpleStream@BIB_T_MT@@", 
+        ".?AVBIBClientRewindableStream@BIB_T_MT@@", 
+        ".?AVBIBClientPositionableStream@BIB_T_MT@@", 
+        ".?AV?$TBIBLazyObjectPointer@VBRVMutualExclusion@@@BIB_T_MT@@", 
+        ".?AVTempFileStream@@", 
+        ".?AVtype_info@@", 
+        "<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">", 
+        "  <dependency>", 
+        "    <dependentAssembly>", 
+        "      <assemblyIdentity type=\"win32\" name=\"Microsoft.VC80.CRT\" version=\"8.0.50608.0\" processorArchitecture=\"x86\" publicKeyToken=\"1fc8b3b9a1e18e3b\"></assemblyIdentity>", 
+        "    </dependentAssembly>", 
+        "  </dependency>", 
+        "</assembly>PAPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPADDINGPADDINGXXPAD", 
+        "1\"161@1E1R1j1p1", 
+        "132a2f2k2r2v2", 
+        "4B4T4b4r4", 
+        "556@6F6e6", 
+        "7-727Q7a7l7", 
+        "<*<Q<z<", 
+        "=3=8=G=O=W=_=g=o=w=", 
+        ">\">->8>C>N>Y>d>o>z>", 
+        "?#?+?3?;?C?K?S?[?c?k?s?{?", 
+        "0K0Q0~0", 
+        "141T1g1l1{1", 
+        "2\u001f2'2/272?2G2O2W2_2g2o2w2", 
+        "4#4+434;4C4K4S4s4", 
+        "5&5Q5a5x5", 
+        "777R7z7", 
+        "8\u001f8'8/878?8V8h8", 
+        "9;:N:U:\\:g:", 
+        ";\";F;X;", 
+        "<.=A=G=N=Y=", 
+        ">4>9>A>J>d>i>", 
+        "L0j0r0", 
+        "1!121:1?1\\1z1", 
+        "2\"2*222:2B2Q2Z2t2y2", 
+        "3&3b3|3", 
+        "3(4.4X4^4", 
+        "4)5.53585=5B5G5L5h5", 
+        "6 6%6*6/656:6?6D6I6O6T6Y6^6c6i6n6s6x6}6", 
+        "6\"7?7U7b7", 
+        "8<8Z8b8j8r8", 
+        "9\u001f9'9/9D9X9g9o9w9", 
+        ":':/:7:?:G:O:W:_:g:o:", 
+        ";\u001f;';/;7;?;G;O;W;_;g;o;w;", 
+        "<$<8<G<O<W<_<g<o<w<", 
+        "=\u001f='=/=7=?=G=O=W=_={=", 
+        ">!>2>:>?>Q>Z>a>r>z>", 
+        "?!?2?:???Q?Z?a?r?z?", 
+        "0!020:0?0R0d0r0", 
+        "1:1c1r1", 
+        "2I2f2t2", 
+        "3*4S4b4", 
+        "595V5d5", 
+        ";0;B;T;f;", 
+        ";(<A<c<q<", 
+        "=4=J=b=", 
+        ">6>F>]>e>", 
+        "?:?B?r?", 
+        "0+1Z1x1~1", 
+        "2\"2'2F2L2t2y2", 
+        "32373V3\\3", 
+        "42474V4\\4", 
+        "4;5A5b5g5", 
+        "91969C9K9g9", 
+        "9;:A:N:g:", 
+        ";6<H<s<", 
+        ">4>A>V>h>", 
+        "?W?q?~?", 
+        "0$060H0", 
+        "0=1W1d1v1", 
+        "313>3V3h3", 
+        "4W4q4~4", 
+        "5$565H5", 
+        "576Q6^6v6", 
+        "878D8V8h8}8", 
+        "9&989M9V9", 
+        ";5;J;[;p;", 
+        "<#<3<L<b<k<s<", 
+        "=(=b=u=", 
+        ">)>:>O>", 
+        "2:2i2~2", 
+        "7\"7;7@7P7X7", 
+        "8/8:8d8i8v8~8", 
+        "909;9D9H9L9P9T9X9", 
+        ":&;8;P;^;r;", 
+        "<#<6<H<", 
+        "<4=N=[=f=x=", 
+        "?6?C?T?p?x?", 
+        "04090P0X0`0h0p0x0", 
+        "2\u001f2'2:2g2", 
+        "333A3V3", 
+        "7S7c7|7", 
+        "8)8<8W8S9f9):;:x:", 
+        ";=<W<_<l<", 
+        "=1=f=w=", 
+        ">C>H>U>]>j>q>", 
+        "1$2>2K2V2h2", 
+        "4/5G5T5f5x5", 
+        "8$8[8j8|8", 
+        ": :(:0:T:Y:p:x:", 
+        "; ;(;0;8;@;H;P;X;`;h;p;x;", 
+        "< <(<0<8<@<#=1=F=", 
+        "=L>f>s>", 
+        "0-0R0Z0", 
+        "4 4(40484@4H4P4X4`4h4p4x4", 
+        "636A6d6", 
+        "8\u001f828J8S8f8x8", 
+        ":\u001f:,:4:c:r:", 
+        ":3;B;P;", 
+        "=-=:=F=X=", 
+        ">3>@>T>Y>p>x>", 
+        "K0P0]0e0", 
+        "6&667;7H7P7c7r7", 
+        "7K8P8]8e8s8", 
+        "9*:3:D:`:s:", 
+        ":C;R;y;", 
+        "<*<n<u<", 
+        "?\"?.?Y?q?x?", 
+        "5&5>5q5", 
+        "737D7]7", 
+        ":7:<:m:r:", 
+        ">=?X?p?u?", 
+        "0080=0F0N0S0\\0d0i0r0z0", 
+        "232S2{2", 
+        "3J4V4n4z4", 
+        ":*;6;B;h;", 
+        "<#=4=T=", 
+        "=)>;>S>", 
+        "1%1,111c1", 
+        "4 494R4k4", 
+        "535L5e5{5", 
+        "6+6A6W6m6", 
+        "8&8+8>8P8", 
+        "6C7U7\"8*9v:", 
+        "1:2T2y2", 
+        ":D:V:h:z:", 
+        ";.;C;X;m;", 
+        "<*<?<T<i<", 
+        "<#=4=R=", 
+        "? ?A?r?", 
+        "0\u001f0S0a0", 
+        "0\"1-1S1a1", 
+        "2;3D3X3", 
+        "676<6J6s6", 
+        "6,7]7p7w7~7", 
+        "778h8{8", 
+        "9\u001f:(:l:~:", 
+        ";(;d;m;", 
+        ";-<@<G<N<Y<", 
+        "=H=[=b=i=t=", 
+        "=(>;>B>I>T>v>", 
+        "?H?[?b?i?t?", 
+        "0 0(00080@0H0P0X0`0h0", 
+        "1'1S1b1", 
+        "262U2V3h3", 
+        "444I4r4", 
+        "4N5]5}5", 
+        "8\u001f8*8Z8_8d8i8", 
+        ":;:L:V:[:i:{:", 
+        ";\"<C<S<", 
+        ">$>)>7>U>o>", 
+        "?(?-?;?S?X?f?~?", 
+        "1<1A1O1p1", 
+        "1*2f2l2r2x2~2", 
+        "3\"3/3f3l3r3", 
+        "3#4,454:4N4Z4u4}4", 
+        "5$51575?5X5^5q5v5", 
+        "6'646L6", 
+        "8!8'8.858<8C8J8Q8X8`8h8p8|8", 
+        "9J:R:`:e:", 
+        "<)<1<<<B<H<N<T<r<", 
+        "=\">J>z>", 
+        "626R6r6", 
+        "727R7r7", 
+        "=\">J>z>", 
+        ">\"?R?}?", 
+        "223)4Z4", 
+        ">B>S>X>]>b>", 
+        "?C?H?M?R?", 
+        "0\"0(0,0A0H0R0X0\\0s0}0", 
+        "1&1+141:1>1S1]1q1x1", 
+        "2&2+242:2>2S2]2q2x2", 
+        "2!3'31393=3E3M3S3_3j3q3", 
+        "4\u001f4*414A4Q4a4g4k4q4v4~4", 
+        "5!5'5+51565>5B5J5R5X5d5o5v5", 
+        "6\u001f6*616", 
+        "(1,10141<1@1D1H1\\1p1t1", 
+        "2 2\\2`2d2", 
+        "3 3$3(3,3`3d3h3l3p3t3x3|3", 
+        "3T<X<\\<`<d<h<l<p<t<x<|<", 
+        "H1L1P1T1X1\\1L<P<T<X<\\<`<d<h<l<p<0=4=8=<=@=D=H=L=P=T=X=\\=`=d=h=l=p=t=x=|=", 
+        "3t4x4|4", 
+        "T4X4|4", 
+        "5d7h7p7t7", 
+        "7@8D8T8X8\\8d8|8", 
+        "9 9$9(909H9L9d9t9x9", 
+        ":$:<:@:X:h:l:t:", 
+        "; ;(;@;P;T;X;`;x;|;", 
+        "<(<8<<<L<P<T<X<\\<`<d<h<p<", 
+        "= =$=(=,=0=8=P=`=d=t=x=|=", 
+        "> >$>(>,>4>L>\\>`>p>t>x>", 
+        "?$?<?L?P?`?d?h?l?p?x?", 
+        "0,0<0@0P0T0X0\\0d0|0", 
+        "1(1,1<1@1D1H1P1h1l1", 
+        "2 2(2@2P2T2d2h2l2p2x2", 
+        "303@3D3T3X3\\3d3|3", 
+        "4 4$4(4,444L4\\4`4p4t4x4|4", 
+        "5 585H5L5\\5`5d5l5", 
+        "6 6064686<6D6\\6l6p6t6x6|6", 
+        "747D7H7X7\\7`7d7h7l7p7x7", 
+        ";$;,;@;P;t;", 
+        "<$<0<P<\\<|<", 
+        "=@=X=`=h=x=", 
+        "= >8>@>H>X>d>l>", 
+        "? ?(?8?D?L?p?", 
+        "0$0,0D0L0X0x0", 
+        "1 1(141T1`1", 
+        "202<2\\2h2", 
+        "3$303P3X3d3", 
+        "4$4D4L4T4\\4d4l4t4|4", 
+        "5 5(50585@5H5P5`5", 
+        "646<6D6L6`6t6", 
+        "7 7(7\\7d7l7|7", 
+        "7,848<8L8X8`8", 
+        "9(909d9l9t9", 
+        ":4:<:D:T:`:h:", 
+        ";$;0;8;l;t;|;", 
+        "<<<D<L<\\<h<p<", 
+        "=,=8=@=t=|=", 
+        ">D>L>T>d>p>x>", 
+        "?$?0?P?\\?|?", 
+        "040@0d0", 
+        "141<1L1x1", 
+        "2H2P2X2h2t2|2", 
+        "3 3(383D3L3", 
+        "4$404P4\\4|4", 
+        "5<5D5P5p5|5", 
+        "6$646H6P6X6t6|6", 
+        "6 7(707@7L7T7x7", 
+        "8 8,848X8h8x8", 
+        "9@9H9P9`9l9t9", 
+        ": :0:@:H:\\:d:", 
+        ";(;4;<;T;`;", 
+        "< <@<L<x<", 
+        "=$=,=<=L=T=h=p=", 
+        ">$>0>l>t>|>", 
+        "?<?D?P?|?", 
+        "0$0,0@0H0`0l0", 
+        "181D1d1p1", 
+        "2$202P2X2d2", 
+        "3$3,383X3`3h3t3", 
+        "40484D4d4l4t4", 
+        "5 5(50585@5H5T5x5", 
+        "6 6(60686@6H6P6d6l6t6", 
+        "7 7(70787D7p7x7", 
+        "80888@8H8P8X8`8h8p8x8", 
+        "9 9(90989@9L9l9t9|9", 
+        ":$:,:4:<:D:L:T:\\:d:l:t:|:", 
+        ";$;,;4;<;D;L;T;\\;d;l;t;|;", 
+        "<$<,<4<<<D<L<T<\\<d<l<t<|<", 
+        "=$=,=4=<=D=L=T=\\=d=l=t=|=", 
+        "><>H>h>p>|>", 
+        "? ?(?0?8?@?H?P?X?`?l?", 
+        "0 0(00080@0H0P0X0`0h0p0x0", 
+        "1 1(10181@1H1P1\\1", 
+        "2<2H2h2t2", 
+        "3 3(343`3h3p3", 
+        "4$4,4P4X4`4p4|4", 
+        "5$5,545D5X5`5h5x5", 
+        "6$6,6P6h6p6x6", 
+        "7,747<7H7h7t7", 
+        "8 8(888L8l8t8|8", 
+        "9 9@9H9P9X9h9p9x9", 
+        ":$:,:8:\\:|:", 
+        ";,;4;<;H;", 
+        "0 0$00040P0l0", 
+        "4@4x4|4", 
+        "585<5@5D5l5", 
+        "70747<7H7T7`7l7x7", 
+        "9<9@9p9", 
+        ":P:p:t:", 
+        "HY_^Z[", 
+        "VWQRSj", 
+        "SRQWVj", 
+        "&mgr.exe", 
+        "LoadLibraryA", 
+        "GetProcAddress", 
+        "GetModuleHandleA", 
+        "kernel32.dll", 
+        "FreeLibrary", 
+        "OpenMutexA", 
+        "CloseHandle", 
+        "CreateFileA", 
+        "WriteFile", 
+        "GetModuleFileNameA", 
+        "CreateProcessA", 
+        "GetWindowsDirectoryA", 
+        "GetVolumeInformationA", 
+        "+e-;RW", 
+        "=/I>}0X", 
+        "o'&hf-", 
+        "(_fhZ)", 
+        "p>yL8H", 
+        "QbR?*4", 
+        "Q!?+e?<q", 
+        "aARCL^", 
+        "UI@e\u001fr3", 
+        "zx0zLf", 
+        "~<oRfC", 
+        "UvtB v", 
+        "R9z'Bt", 
+        "Jl8b[B", 
+        "J+^^8t", 
+        "-r8*s.", 
+        "g}1Y%y", 
+        "= *~@*X", 
+        "D?TCuU", 
+        "[=Z7#@cJ", 
+        ";4+0E8s", 
+        "#/2,9;", 
+        "8d8F=s", 
+        "!nwzMn", 
+        "LQ:P%6", 
+        "Ru1b7\"", 
+        "f,Mp:w", 
+        "4LIZ0(", 
+        "itNR]<", 
+        ".5[6BV", 
+        "+dGm$=", 
+        "vTM5G0", 
+        "TER:;>", 
+        "9gya|*", 
+        "i;<NUKgp:", 
+        "=A~ddA", 
+        "5ZA1Aq5P", 
+        "*EMN5GH", 
+        "cD'&Q*", 
+        ".rnLN\"", 
+        "lg%jIAu", 
+        "y*m(YWd", 
+        "i3J-aI&", 
+        "\\`{\\VF", 
+        "wkj{.xJ", 
+        "{L@q'8N", 
+        "o#.q[}}", 
+        "ue~$%20", 
+        "\u001f\"\"\"Eqq", 
+        "}=R%IZ", 
+        "IZo}<z", 
+        "B\"g[-A", 
+        "PwW5;Y", 
+        "@/!y]I", 
+        "xWn|^#_c", 
+        ":dc$l:", 
+        ",W)R[Z", 
+        "=e?!wyt", 
+        "Bx\"#*f", 
+        "I'7,_`", 
+        "mz*]H#", 
+        "EyUPy(7b", 
+        "w&5:)S", 
+        "O@|+N\u001f93", 
+        "7scvpZ", 
+        "UfnM)O", 
+        "%Fw72+", 
+        "SrH'~.", 
+        "'zm78%", 
+        "8qc\\eE", 
+        "WLCgXgB", 
+        "J*3Vc(u", 
+        "WHva#]", 
+        "n@4UUR", 
+        "JPvu0`4", 
+        ":M$[dg", 
+        "Chem:ahp", 
+        "cg8koj^", 
+        "7eE<VHv", 
+        "I35A?7J", 
+        ")[S'qz", 
+        "j&C(:s", 
+        "w\u001fBJuI", 
+        "z#rp}\\", 
+        ":@{=Y20u", 
+        "?{Ukx .", 
+        "N~DN}*", 
+        "U\u001fFPLK", 
+        "N]fNi\u001f5", 
+        "4?vGNG", 
+        "7IKmM6O", 
+        "\"F\u001fK+0", 
+        "#k2LP[", 
+        "kv&|!^", 
+        "$;J{+vs", 
+        "pObb$[Aw", 
+        "py3DyX", 
+        "Z7zAJk", 
+        "R*wcba", 
+        ".HZ}Kq1", 
+        "U*4(@1Y", 
+        "M!J}@B", 
+        "N~a%t4u?", 
+        "{PGwXETlg3", 
+        "(}5d?NUyL", 
+        "?m+p^Z", 
+        "x;t$&:", 
+        "151~^L", 
+        "L}!P3c/", 
+        "pkw;wu", 
+        "o%dp8R", 
+        "\u001f#Q9%b)w", 
+        "5W6f`db", 
+        ">d%gh:", 
+        "WLLZ;O!", 
+        "[)g)56", 
+        "be[4XG", 
+        "$tqe4V", 
+        "\"6!B{%", 
+        "@h(;~;", 
+        "E2gB+e", 
+        "xmJ`-J", 
+        "Eot%.W", 
+        "{tkM8N", 
+        "F?0@ <", 
+        "sa\\(zq", 
+        "i`9jOR", 
+        ",+ri[h", 
+        ">Ix9wV", 
+        "};\u001fbZA", 
+        "l\\jL4+T", 
+        "e{*iI:", 
+        "i(IBKt", 
+        "^mz{R.", 
+        "De]sS(TJ", 
+        "4*FHuBp", 
+        "#)wdB7", 
+        "pE(UK9", 
+        "1o,2tv~", 
+        "OwY8Nf", 
+        "Uq._>pqr", 
+        "DFFH#p}", 
+        "?\\a)Nzr", 
+        "UV]GgD<", 
+        "s-So3!!", 
+        "t%4`%Za_", 
+        ":)<ZFM", 
+        "vX@_bE", 
+        "yz?HLF", 
+        "$6x<}B6AC)2|(", 
+        "Zzu^l'", 
+        "gt0[HA", 
+        "ceyW5'", 
+        "sI+\"qS", 
+        "^<cbva8o", 
+        "Cb$b*D", 
+        "{N,g;4", 
+        "p\\sA^BS$J", 
+        "MD[6mz$", 
+        "P^hV-o", 
+        "vesE=sF\\o^", 
+        "o\\$[xp/", 
+        ";5zF%d7", 
+        "Yvnwr,", 
+        ">{(2we", 
+        "BSe%j~", 
+        ";=VM'wC", 
+        "d0!ph{W", 
+        "NKk(6P", 
+        "D pou7", 
+        "%BWvu;q", 
+        "NZG5aXl", 
+        "}h'P8C", 
+        "FsC`:JC", 
+        "osj,C:", 
+        "`C\"&@ar", 
+        "}KdercX", 
+        "mHL!EtXT", 
+        "Mq5?$(", 
+        "ldT~cO", 
+        "W.4M.\"", 
+        "-mi k2", 
+        "_%g<wm", 
+        ".1H`GI|", 
+        "LXq_~h", 
+        "\\0'h3$", 
+        "Xa,$_&S;Yd", 
+        "E\\bG?ZE", 
+        "q)Hku*", 
+        "v}N{YQ", 
+        "h]p:7:%h", 
+        "=P(~j'", 
+        ":|bt[\"D4", 
+        "r?F6M<", 
+        "?%:`ik1S", 
+        "?b.K@E", 
+        "?l`;H4", 
+        "t#+)$I", 
+        "]>.Aj>1_B", 
+        "O6rW y", 
+        "tS$W7]", 
+        "+VkTGIe", 
+        "MA>,5\\", 
+        "ppgV~A", 
+        "~xriVV", 
+        "]xCnB k", 
+        "_.DiHq", 
+        "1z7]0dz", 
+        "$@[1&8QQ", 
+        "UM-[t)", 
+        "UE(h7H", 
+        "9a59wY|<", 
+        ".yd\u001fNt", 
+        "Kd`0*c", 
+        "{yGn]~o@", 
+        "B,)*V@", 
+        "<\u001f@J(-", 
+        "OK+pxn", 
+        "eH}@OG5f", 
+        "6oU;0$", 
+        "3@tpw3v", 
+        "rl4hvP", 
+        "ny{xll", 
+        "giF-#\"", 
+        "MX6.AuQ{", 
+        "&ufORo", 
+        "a3\u001f8Kp", 
+        "2w4WA9\"_", 
+        "R\\k+H*", 
+        "\\HWi\u001fx", 
+        ".k6HJD", 
+        "zsFkWte", 
+        "K8Vcl#\\", 
+        "xs09.n\u001f#_rXP", 
+        "^JZAV$", 
+        "($:CRx", 
+        "fyCd_p", 
+        "t3=)|2", 
+        "OiX1C<", 
+        "VBmLrz", 
+        "cw`<r\u001f", 
+        "UR!1*-a", 
+        "g?'L6M2", 
+        "zhBcQ:", 
+        "1acvR%ZZ", 
+        "iblC2{", 
+        "FC>s7%", 
+        "SmH\"Mv", 
+        "(M8\\N/", 
+        "7C='yl(", 
+        "}iXGLUp", 
+        "f6g5AW", 
+        "Hy+^ve", 
+        "p#mNCPy", 
+        "c@\\jRocp", 
+        "L:n/.I", 
+        "I%4z\\ng", 
+        "b`^in7&", 
+        "/f<=[x", 
+        "+HTY?<", 
+        "3*0DP!Ks", 
+        "{9oiG{", 
+        "e/=a8I", 
+        "_2ZRgW", 
+        "%u9edp", 
+        "E_^I3\u001f", 
+        "4lLj0#", 
+        "BV`);,", 
+        "awFzqWi", 
+        "1Kz$x\\", 
+        "PmvjX^", 
+        "v@7&H]b", 
+        "K?{m{q", 
+        "F<46 o8", 
+        "R7#*D*", 
+        "D+EKS4", 
+        "hu^ju|\"+", 
+        "erEE\"2E", 
+        "uOz:|LeDjI", 
+        "dKyXa&", 
+        "B24t<#", 
+        "$LB%M/j", 
+        "wa#Z@C", 
+        "QjT)E}", 
+        "`9JXU{", 
+        "ezSb+a", 
+        "% g.2b", 
+        "HXk|k!q", 
+        "MM\\EBAn", 
+        "=Z,tf!g", 
+        "|bdkMh", 
+        "\u001f3Z,,N", 
+        "@\\R.'{", 
+        "a#&10:", 
+        "@.`\"U&", 
+        "@\\R.'?", 
+        "!.C)30.", 
+        "]~(\\A=", 
+        "Gmjq]Q", 
+        " ~&%N'", 
+        "f3NgAAS", 
+        "~p?:l*V", 
+        "@I_w]q", 
+        "rkIIrX", 
+        "y)R)<PX,", 
+        "X;_5bv", 
+        "=!IHw`", 
+        "ZyQd(@", 
+        ":G\u001fK\"j", 
+        "-!ngu{;", 
+        "\"M+{KB", 
+        "@X+Veo", 
+        "{)\u001f\\]:", 
+        "%KVt>t", 
+        "8nk=tJ", 
+        "oXffyh=uu", 
+        "6CiU%S_*", 
+        "h=S5AvC%Or", 
+        "8I)b[re", 
+        "'FP,0r", 
+        "iLgg4Ef", 
+        "f2G6{M", 
+        "Nq#*R*w\"", 
+        "f'I}*r\"", 
+        "y;F;)V", 
+        "*gq@+&o", 
+        "M(TqJ=", 
+        "tJRn./", 
+        "rG?.-;", 
+        "\u001f<gh)3", 
+        "H;[B;o", 
+        "@ls*iH", 
+        "3a2ZC8", 
+        "]N*^Hb", 
+        "(.dCwG", 
+        "Mm=b]b", 
+        "yO\u001f*dH", 
+        "/:U%oii\u001f", 
+        "h&Wn@t", 
+        "?W. A;", 
+        "hU4Uj!-@", 
+        "[/t> }9", 
+        "M.M-XWbk", 
+        "[mXz}6uv", 
+        "\"%DMi;", 
+        "=R4K:3V", 
+        "@_CLJ\"uZ", 
+        "\"~&M\\'", 
+        "0brX4j", 
+        "sX2M(Q", 
+        "'@>Buyr", 
+        "duYHf9g", 
+        "\"_I/u@", 
+        "}3?!}z", 
+        "W{/_wSec", 
+        "Qe*b[Y", 
+        "Q\u001f=!Ytc", 
+        "l7|&!f|my\"", 
+        "@Y `01", 
+        "09]JW.", 
+        "Ux,hV:", 
+        "'9J*KIP", 
+        ">ZIT>9u", 
+        "JNdE0C]r", 
+        "W{/_wSec", 
+        "Qe*b[Y", 
+        " $.R[<", 
+        "0/[IQ]O", 
+        "b#AF}:", 
+        "FHQVhx", 
+        "}@d_kX", 
+        "{$D|_<V", 
+        "]EWU4=ei", 
+        "t`~'\"g", 
+        "v<&)*'", 
+        "#}V.Eih", 
+        "A/m1-m", 
+        ".& ukUPx9u", 
+        "&juj*F", 
+        "Y~50c^W=", 
+        "7|a<RV", 
+        ">9*3Sx}", 
+        "{X=rTb", 
+        "h?MS~?T", 
+        "sMzWT3", 
+        "bflW0{", 
+        "w--cP[&", 
+        "'?t5X<", 
+        "uT!a3c", 
+        "TJWs_3L`", 
+        "mt'{hC", 
+        "*sVFzt", 
+        "``>~:&P", 
+        "{2ke.lpO", 
+        "\"RJ6Ua", 
+        "|dHE|Wq", 
+        "$)H+{kB", 
+        "o64'\"f|", 
+        "^4pN(L", 
+        "JNdO0C]h", 
+        "W{/_wSe`", 
+        "Ve*bZY", 
+        "53LRSo", 
+        "x{R/mIg", 
+        "@\\R.'{", 
+        "8S3/Joyk", 
+        "m/|L$;", 
+        "VS_VERSION_INFO", 
+        "StringFileInfo", 
+        "080004b0", 
+        "CompanyName", 
+        "Adobe Systems Incorporated", 
+        "FileDescription", 
+        "Bravo Interface Binder Utilities", 
+        "FileVersion", 
+        "1.1.01", 
+        "InternalName", 
+        "BIBUtils", 
+        "LegalCopyright", 
+        " 1993-2006 Adobe Systems Incorporated", 
+        "OriginalFilename", 
+        "BIBUtils.dll", 
+        "ProductName", 
+        "BIBUtils", 
+        "ProductVersion", 
+        "BuildDate", 
+        "Mon Oct 23 00:08:17 2006", 
+        "BuildVersion", 
+        "44.255677", 
+        "VarFileInfo", 
+        "Translation", 
+        "jjjjjj"
+    ], 
+    "virustotal": {
+        "scan_id": "b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258-1406636496", 
+        "sha1": "3fcf168ad52152fc5f9c7142a1daaf8ab742c4d1", 
+        "resource": "2a2b5630f9e8fe7fddf932be0d919d83", 
+        "response_code": 1, 
+        "scan_date": "2014-07-29 12:21:36", 
+        "permalink": "https://www.virustotal.com/file/b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258/analysis/1406636496/", 
+        "verbose_msg": "Scan finished, scan information embedded in this object", 
+        "sha256": "b071ec0325b2c431186dd5a2aecf09fff44478d33a29f7a0514b91b4bc3c7258", 
+        "positives": 49, 
+        "total": 53, 
+        "md5": "2a2b5630f9e8fe7fddf932be0d919d83", 
+        "scans": {
+            "Bkav": {
+                "detected": true, 
+                "version": "1.3.0.4959", 
+                "result": "W32.Tmgrtext.PE", 
+                "update": "20140728"
+            }, 
+            "MicroWorld-eScan": {
+                "detected": true, 
+                "version": "12.0.250.0", 
+                "result": "Win32.Ramnit.N", 
+                "update": "20140729"
+            }, 
+            "nProtect": {
+                "detected": true, 
+                "version": "2014-07-29.01", 
+                "result": "Virus/W32.SpyEye", 
+                "update": "20140729"
+            }, 
+            "CMC": {
+                "detected": true, 
+                "version": "1.1.0.977", 
+                "result": "Virus.Win32.Ramit.1!O", 
+                "update": "20140728"
+            }, 
+            "CAT-QuickHeal": {
+                "detected": true, 
+                "version": "14.00", 
+                "result": "W32.Ramnit.A", 
+                "update": "20140729"
+            }, 
+            "McAfee": {
+                "detected": true, 
+                "version": "6.0.4.564", 
+                "result": "W32/Ramnit.a", 
+                "update": "20140729"
+            }, 
+            "Malwarebytes": {
+                "detected": true, 
+                "version": "1.75.0.1", 
+                "result": "Virus.Ramnit", 
+                "update": "20140729"
+            }, 
+            "SUPERAntiSpyware": {
+                "detected": false, 
+                "version": "5.6.0.1032", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "TheHacker": {
+                "detected": false, 
+                "version": "6.8.0.5.473", 
+                "result": null, 
+                "update": "20140728"
+            }, 
+            "K7GW": {
+                "detected": true, 
+                "version": "9.181.12872", 
+                "result": "Virus ( 001d9d511 )", 
+                "update": "20140728"
+            }, 
+            "K7AntiVirus": {
+                "detected": true, 
+                "version": "9.181.12872", 
+                "result": "Virus ( 001d9d511 )", 
+                "update": "20140728"
+            }, 
+            "NANO-Antivirus": {
+                "detected": true, 
+                "version": "0.28.2.61148", 
+                "result": "Virus.Win32.Nimnul.bmnup", 
+                "update": "20140729"
+            }, 
+            "F-Prot": {
+                "detected": true, 
+                "version": "4.7.1.166", 
+                "result": "W32/Ramnit.D", 
+                "update": "20140729"
+            }, 
+            "Symantec": {
+                "detected": true, 
+                "version": "20131.1.5.61", 
+                "result": "W32.Ramnit.B!inf", 
+                "update": "20140729"
+            }, 
+            "Norman": {
+                "detected": true, 
+                "version": "7.04.04", 
+                "result": "Ramnit.AS", 
+                "update": "20140729"
+            }, 
+            "TotalDefense": {
+                "detected": true, 
+                "version": "37.0.11087", 
+                "result": "Win32/Ramnit.C", 
+                "update": "20140729"
+            }, 
+            "Avast": {
+                "detected": true, 
+                "version": "8.0.1489.320", 
+                "result": "Win32:RmnDrp", 
+                "update": "20140729"
+            }, 
+            "ClamAV": {
+                "detected": true, 
+                "version": "0.98.4.0", 
+                "result": "W32.Ramnit-1", 
+                "update": "20140729"
+            }, 
+            "Kaspersky": {
+                "detected": true, 
+                "version": "12.0.0.1225", 
+                "result": "Virus.Win32.Nimnul.a", 
+                "update": "20140729"
+            }, 
+            "BitDefender": {
+                "detected": true, 
+                "version": "7.2", 
+                "result": "Win32.Ramnit.N", 
+                "update": "20140729"
+            }, 
+            "Agnitum": {
+                "detected": true, 
+                "version": "5.5.1.3", 
+                "result": "Win32.Nimnul.Gen.2", 
+                "update": "20140727"
+            }, 
+            "ViRobot": {
+                "detected": true, 
+                "version": "2011.4.7.4223", 
+                "result": "Win32.Nimnul.A", 
+                "update": "20140729"
+            }, 
+            "Rising": {
+                "detected": true, 
+                "version": "25.0.0.11", 
+                "result": "PE:Win32.Ramnit.i!1075353400", 
+                "update": "20140729"
+            }, 
+            "Ad-Aware": {
+                "detected": true, 
+                "version": "12.0.163.0", 
+                "result": "Win32.Ramnit.N", 
+                "update": "20140729"
+            }, 
+            "Sophos": {
+                "detected": true, 
+                "version": "4.98.0", 
+                "result": "W32/Ramnit-A", 
+                "update": "20140729"
+            }, 
+            "Comodo": {
+                "detected": true, 
+                "version": "19012", 
+                "result": "Virus.Win32.Ramnit.K", 
+                "update": "20140729"
+            }, 
+            "F-Secure": {
+                "detected": true, 
+                "version": "11.0.19100.45", 
+                "result": "Win32.Ramnit.N", 
+                "update": "20140729"
+            }, 
+            "DrWeb": {
+                "detected": true, 
+                "version": "7.0.9.4080", 
+                "result": "Win32.Siggen.7", 
+                "update": "20140729"
+            }, 
+            "VIPRE": {
+                "detected": true, 
+                "version": "31714", 
+                "result": "Virus.Win32.Ramnit.b (v)", 
+                "update": "20140729"
+            }, 
+            "AntiVir": {
+                "detected": true, 
+                "version": "7.11.164.86", 
+                "result": "W32/Ramnit.C", 
+                "update": "20140729"
+            }, 
+            "TrendMicro": {
+                "detected": true, 
+                "version": "9.740.0.1012", 
+                "result": "PE_RAMNIT.DEN", 
+                "update": "20140729"
+            }, 
+            "McAfee-GW-Edition": {
+                "detected": true, 
+                "version": "2013", 
+                "result": "W32/Ramnit.a", 
+                "update": "20140728"
+            }, 
+            "Emsisoft": {
+                "detected": true, 
+                "version": "3.0.0.600", 
+                "result": "Win32.Ramnit.N (B)", 
+                "update": "20140729"
+            }, 
+            "Jiangmin": {
+                "detected": true, 
+                "version": "16.0.100", 
+                "result": "Win32/IRCNite.wi", 
+                "update": "20140725"
+            }, 
+            "Antiy-AVL": {
+                "detected": true, 
+                "version": "1.0.0.1", 
+                "result": "Virus/Win32.Nimnul.a", 
+                "update": "20140729"
+            }, 
+            "Kingsoft": {
+                "detected": true, 
+                "version": "2013.4.9.267", 
+                "result": "Win32.Ramnit.lx.30720", 
+                "update": "20140729"
+            }, 
+            "Microsoft": {
+                "detected": true, 
+                "version": "1.10802", 
+                "result": "Virus:Win32/Ramnit.I", 
+                "update": "20140729"
+            }, 
+            "AegisLab": {
+                "detected": false, 
+                "version": "1.5", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "AhnLab-V3": {
+                "detected": true, 
+                "version": "2014.07.29.03", 
+                "result": "Win32/Ramnit.F", 
+                "update": "20140729"
+            }, 
+            "GData": {
+                "detected": true, 
+                "version": "24", 
+                "result": "Win32.Ramnit.N", 
+                "update": "20140729"
+            }, 
+            "Commtouch": {
+                "detected": true, 
+                "version": "5.4.1.7", 
+                "result": "W32/Ramnit.D", 
+                "update": "20140729"
+            }, 
+            "ByteHero": {
+                "detected": false, 
+                "version": "1.0.0.1", 
+                "result": null, 
+                "update": "20140729"
+            }, 
+            "VBA32": {
+                "detected": true, 
+                "version": "3.12.26.3", 
+                "result": "Virus.Win32.Nimnul.b", 
+                "update": "20140729"
+            }, 
+            "AVware": {
+                "detected": true, 
+                "version": "1.5.0.16", 
+                "result": "Virus.Win32.Ramnit.b (v)", 
+                "update": "20140729"
+            }, 
+            "Baidu-International": {
+                "detected": true, 
+                "version": "3.5.1.41473", 
+                "result": "Virus.Win32.Nimnul.$a", 
+                "update": "20140729"
+            }, 
+            "Zoner": {
+                "detected": true, 
+                "version": "1.0", 
+                "result": "Win32.Ramnit.H", 
+                "update": "20140723"
+            }, 
+            "ESET-NOD32": {
+                "detected": true, 
+                "version": "10170", 
+                "result": "Win32/Ramnit.H", 
+                "update": "20140729"
+            }, 
+            "Tencent": {
+                "detected": true, 
+                "version": "1.0.0.1", 
+                "result": "Virus.Win32.Dropper.k", 
+                "update": "20140729"
+            }, 
+            "Ikarus": {
+                "detected": true, 
+                "version": "T3.1.6.1.0", 
+                "result": "Virus.Win32.Ramnit", 
+                "update": "20140729"
+            }, 
+            "Fortinet": {
+                "detected": true, 
+                "version": "5.1.152.0", 
+                "result": "W32/Ramnit.C", 
+                "update": "20140729"
+            }, 
+            "AVG": {
+                "detected": true, 
+                "version": "14.0.0.3986", 
+                "result": "Win32/Zbot.G", 
+                "update": "20140729"
+            }, 
+            "Panda": {
+                "detected": true, 
+                "version": "10.0.3.5", 
+                "result": "W32/Cosmu.C", 
+                "update": "20140729"
+            }, 
+            "Qihoo-360": {
+                "detected": true, 
+                "version": "1.0.0.1015", 
+                "result": "Virus.Win32.Ramnit.A", 
+                "update": "20140729"
+            }
+        }
+    }, 
+    "network": {
+        "udp": [
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55998
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55998
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55998
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55998
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55367
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55367
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55367
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 55367
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58115
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58115
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58725
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58725
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58115
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58115
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58725
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 58725
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 58726
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 58726
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 58726
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 58726
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 60305
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 60305
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 60305
+            }, 
+            {
+                "dport": 5355, 
+                "src": "192.168.56.104", 
+                "dst": "224.0.0.252", 
+                "sport": 60305
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 60306
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 60306
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 53938
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 60306
+            }, 
+            {
+                "dport": 3702, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 60306
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 137, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 137
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 1900
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 1900, 
+                "src": "192.168.56.104", 
+                "dst": "239.255.255.250", 
+                "sport": 56001
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }, 
+            {
+                "dport": 138, 
+                "src": "192.168.56.104", 
+                "dst": "192.168.56.255", 
+                "sport": 138
+            }
+        ], 
+        "irc": [], 
+        "http": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "hosts": [
+            "239.255.255.250"
+        ], 
+        "pcap_sha256": "9d1361a82f17e8d7254aee1c1caf91f2845d4b3ac3784d4da8092762de3eeb3f", 
+        "dns": [], 
+        "domains": [], 
+        "icmp": []
+    }
+}
